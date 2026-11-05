@@ -5,11 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Axel Royer — Portfolio BTS SIO SISR</title>
-  <meta name="description" content="Portfolio d’Axel Royer, étudiant en BTS SIO option SISR, technicien systèmes et réseaux en alternance chez Riou Glass.">
+  <meta name="description"
+    content="Portfolio d’Axel Royer, étudiant en BTS SIO option SISR, technicien systèmes et réseaux en alternance chez Riou Glass.">
   <meta name="theme-color" content="#18222e">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Axel Royer — Portfolio BTS SIO SISR">
-  <meta property="og:description" content="Technicien systèmes et réseaux en alternance chez Riou Glass. Projets, compétences et documentation.">
+  <meta property="og:description"
+    content="Technicien systèmes et réseaux en alternance chez Riou Glass. Projets, compétences et documentation.">
   <meta property="og:locale" content="fr_FR">
   <!-- Image d’aperçu pour LinkedIn, Discord, Teams… Une fois le site en ligne, remplace
        « og-image.png » par l’adresse complète (ex. https://ton-site.fr/og-image.png) :
@@ -17,7 +19,8 @@
   <meta property="og:image" content="og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Axel Royer, technicien systèmes et réseaux en alternance, BTS SIO SISR, avec le schéma réseau de ses projets">
+  <meta property="og:image:alt"
+    content="Axel Royer, technicien systèmes et réseaux en alternance, BTS SIO SISR, avec le schéma réseau de ses projets">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="author" content="Axel Royer">
   <meta name="color-scheme" content="light dark">
@@ -34,7 +37,8 @@
     "knowsAbout": ["Administration systèmes", "Réseaux", "Active Directory", "Linux Debian", "Virtualisation (Proxmox VE)", "Docker", "Cybersécurité"]
   }
   </script>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%2318222e'/><path d='M8 11h16v8h-4v4h-8v-4H8z' fill='%23eceff2'/><circle cx='25' cy='7' r='3' fill='%233ddc6f'/></svg>">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%2318222e'/><path d='M8 11h16v8h-4v4h-8v-4H8z' fill='%23eceff2'/><circle cx='25' cy='7' r='3' fill='%233ddc6f'/></svg>">
   <!-- Police Archivo hébergée avec le site (aucune requête vers Google).
        Préchargée seulement quand le site est servi en http(s) : en double-clic (file://),
        le navigateur refuse ce préchargement et afficherait une erreur inutile. -->
@@ -54,13 +58,13 @@
       try {
         var t = localStorage.getItem('theme');
         if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
-      } catch (e) {}
+      } catch (e) { }
     })();
   </script>
 </head>
 
 <body>
-<!--
+  <!--
   SOMMAIRE DU FICHIER (Ctrl+F sur le nom en majuscules)
     NAVIGATION ........ panneau de brassage (menu)
     HERO .............. nom, présentation, schéma réseau
@@ -75,7 +79,8 @@
 -->
 
   <!-- Visible uniquement si code.css n'a pas été trouvé (masqué par code.css) -->
-  <p class="css-check" role="alert" style="margin:0;padding:1rem;background:#fff3cd;color:#3d2c00;font:16px/1.5 Arial,sans-serif;border-bottom:2px solid #d18a00">
+  <p class="css-check" role="alert"
+    style="margin:0;padding:1rem;background:#fff3cd;color:#3d2c00;font:16px/1.5 Arial,sans-serif;border-bottom:2px solid #d18a00">
     La mise en page n’a pas pu être chargée. Extrayez <strong>tout</strong> le contenu du zip
     (clic droit → « Extraire tout ») puis ouvrez <strong>code.html</strong> depuis le dossier extrait :
     code.css, code.js, fonts/ et docs/ doivent se trouver à côté.
@@ -96,25 +101,41 @@
 
       <nav class="ports" aria-label="Sections">
         <ol>
-          <li><a class="port" href="#profil"><span class="port-jack" aria-hidden="true"></span><span class="port-led" aria-hidden="true"></span><span class="port-label">Profil</span></a></li>
-          <li><a class="port" href="#alternance"><span class="port-jack" aria-hidden="true"></span><span class="port-led" aria-hidden="true"></span><span class="port-label">Alternance</span></a></li>
-          <li><a class="port" href="#projets"><span class="port-jack" aria-hidden="true"></span><span class="port-led" aria-hidden="true"></span><span class="port-label">Projets</span></a></li>
-          <li><a class="port" href="#competences"><span class="port-jack" aria-hidden="true"></span><span class="port-led" aria-hidden="true"></span><span class="port-label">Compétences</span></a></li>
-          <li><a class="port" href="#veille"><span class="port-jack" aria-hidden="true"></span><span class="port-led" aria-hidden="true"></span><span class="port-label">Veille</span></a></li>
-          <li><a class="port" href="#documentation"><span class="port-jack" aria-hidden="true"></span><span class="port-led" aria-hidden="true"></span><span class="port-label">Docs</span></a></li>
-          <li><a class="port" href="#contact"><span class="port-jack" aria-hidden="true"></span><span class="port-led" aria-hidden="true"></span><span class="port-label">Contact</span></a></li>
+          <li><a class="port" href="#profil"><span class="port-jack" aria-hidden="true"></span><span class="port-led"
+                aria-hidden="true"></span><span class="port-label">Profil</span></a></li>
+          <li><a class="port" href="#alternance"><span class="port-jack" aria-hidden="true"></span><span
+                class="port-led" aria-hidden="true"></span><span class="port-label">Alternance</span></a></li>
+          <li><a class="port" href="#projets"><span class="port-jack" aria-hidden="true"></span><span class="port-led"
+                aria-hidden="true"></span><span class="port-label">Projets</span></a></li>
+          <li><a class="port" href="#competences"><span class="port-jack" aria-hidden="true"></span><span
+                class="port-led" aria-hidden="true"></span><span class="port-label">Compétences</span></a></li>
+          <li><a class="port" href="#veille"><span class="port-jack" aria-hidden="true"></span><span class="port-led"
+                aria-hidden="true"></span><span class="port-label">Veille</span></a></li>
+          <li><a class="port" href="#documentation"><span class="port-jack" aria-hidden="true"></span><span
+                class="port-led" aria-hidden="true"></span><span class="port-label">Docs</span></a></li>
+          <li><a class="port" href="#contact"><span class="port-jack" aria-hidden="true"></span><span class="port-led"
+                aria-hidden="true"></span><span class="port-label">Contact</span></a></li>
         </ol>
       </nav>
 
       <button class="search-btn" id="searchBtn" type="button" aria-keyshortcuts="Control+K">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="6.5" />
+          <path d="M16 16l4.5 4.5" />
+        </svg>
         <span class="search-btn-label">Rechercher</span>
         <kbd class="search-kbd">Ctrl K</kbd>
       </button>
 
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="Basculer le thème clair ou sombre">
-        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
-        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.5" />
+          <path
+            d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8" />
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" />
+        </svg>
       </button>
     </div>
   </header>
@@ -128,12 +149,22 @@
       <div class="wrap hero-grid">
         <div class="hero-text">
           <h1 class="hero-name"><span>Axel</span> <span>Royer</span></h1>
-          <p class="hero-role">Technicien systèmes et réseaux en alternance chez Riou Glass, étudiant en BTS SIO option SISR.</p>
+          <p class="hero-role">Technicien systèmes et réseaux en alternance chez Riou Glass, étudiant en BTS SIO option
+            SISR.</p>
 
           <dl class="hero-facts">
-            <div><dt>Formation</dt><dd>BTS SIO SISR, E2SE Caen</dd></div>
-            <div><dt>Année</dt><dd>2e année, 2026/2027</dd></div>
-            <div><dt>Basé à</dt><dd>Honfleur, Normandie</dd></div>
+            <div>
+              <dt>Formation</dt>
+              <dd>BTS SIO SISR, E2SE Caen</dd>
+            </div>
+            <div>
+              <dt>Année</dt>
+              <dd>2e année, 2026/2027</dd>
+            </div>
+            <div>
+              <dt>Basé à</dt>
+              <dd>Honfleur, Normandie</dd>
+            </div>
           </dl>
 
           <div class="hero-actions">
@@ -145,73 +176,73 @@
         <figure class="topology" aria-labelledby="topoCaption">
           <svg id="topoSvg" viewBox="0 0 520 470" role="group" aria-label="Schéma réseau des projets réalisés">
             <!-- Zones -->
-            <rect class="zone" aria-hidden="true" x="16" y="196" width="488" height="262" rx="10"/>
+            <rect class="zone" aria-hidden="true" x="16" y="196" width="488" height="262" rx="10" />
             <text class="zone-label" x="32" y="220">LAN</text>
             <text class="zone-label" x="32" y="104">WAN</text>
 
             <!-- Liens (dessinés au chargement) -->
             <g class="links">
-              <path class="link" data-link="internet-exchange" d="M300 52 H392"/>
-              <path class="link" data-link="internet-cloudflare" d="M220 52 H140"/>
-              <path class="link" data-link="internet-pfsense" d="M260 76 V128"/>
-              <path class="link" data-link="pfsense-switch" d="M260 176 V244"/>
-              <path class="link" data-link="switch-debian" d="M224 266 C150 266 92 290 92 360"/>
-              <path class="link" data-link="switch-ad" d="M240 290 C220 320 206 330 206 372"/>
-              <path class="link" data-link="switch-homelab" d="M280 290 C300 320 316 330 316 372"/>
-              <path class="link" data-link="switch-postes" d="M296 266 C370 266 430 290 430 360"/>
+              <path class="link" data-link="internet-exchange" d="M300 52 H392" />
+              <path class="link" data-link="internet-cloudflare" d="M220 52 H140" />
+              <path class="link" data-link="internet-pfsense" d="M260 76 V128" />
+              <path class="link" data-link="pfsense-switch" d="M260 176 V244" />
+              <path class="link" data-link="switch-debian" d="M224 266 C150 266 92 290 92 360" />
+              <path class="link" data-link="switch-ad" d="M240 290 C220 320 206 330 206 372" />
+              <path class="link" data-link="switch-homelab" d="M280 290 C300 320 316 330 316 372" />
+              <path class="link" data-link="switch-postes" d="M296 266 C370 266 430 290 430 360" />
             </g>
 
             <!-- Équipements non cliquables -->
             <g class="node node-static" data-node="internet" aria-hidden="true" transform="translate(220 28)">
-              <rect width="80" height="48" rx="24"/>
+              <rect width="80" height="48" rx="24" />
               <text x="40" y="29" class="node-name">Internet</text>
             </g>
             <g class="node node-static" data-node="switch" aria-hidden="true" transform="translate(224 244)">
-              <rect width="72" height="44" rx="6"/>
+              <rect width="72" height="44" rx="6" />
               <text x="36" y="20" class="node-name">Switch</text>
               <text x="36" y="34" class="node-type">commutateur</text>
             </g>
 
             <!-- Équipements liés à un projet (cliquables) -->
             <a href="#p-exchange" class="node" data-node="exchange" data-status="ongoing" transform="translate(392 28)">
-              <rect width="116" height="48" rx="6"/>
-              <circle class="node-led" cx="104" cy="12" r="4"/>
+              <rect width="116" height="48" rx="6" />
+              <circle class="node-led" cx="104" cy="12" r="4" />
               <text x="54" y="24" class="node-name">Exchange</text>
               <text x="54" y="38" class="node-type">messagerie cloud</text>
             </a>
             <a href="#p-bookaru" class="node" data-node="cloudflare" data-status="done" transform="translate(24 28)">
-              <rect width="116" height="48" rx="6"/>
-              <circle class="node-led" cx="104" cy="12" r="4"/>
+              <rect width="116" height="48" rx="6" />
+              <circle class="node-led" cx="104" cy="12" r="4" />
               <text x="54" y="24" class="node-name">Cloudflare</text>
               <text x="54" y="38" class="node-type">tunnel HTTPS</text>
             </a>
             <a href="#p-intranet" class="node" data-node="pfsense" data-status="wip" transform="translate(212 128)">
-              <rect width="96" height="48" rx="6"/>
-              <circle class="node-led" cx="84" cy="12" r="4"/>
+              <rect width="96" height="48" rx="6" />
+              <circle class="node-led" cx="84" cy="12" r="4" />
               <text x="44" y="24" class="node-name">pfSense</text>
               <text x="44" y="38" class="node-type">pare-feu</text>
             </a>
             <a href="#p-intranet" class="node" data-node="debian" data-status="wip" transform="translate(36 360)">
-              <rect width="112" height="56" rx="6"/>
-              <circle class="node-led" cx="100" cy="12" r="4"/>
+              <rect width="112" height="56" rx="6" />
+              <circle class="node-led" cx="100" cy="12" r="4" />
               <text x="52" y="26" class="node-name">Debian 13</text>
               <text x="52" y="42" class="node-type">LAMP, DNS</text>
             </a>
             <a href="#p-ad" class="node" data-node="ad" data-status="ongoing" transform="translate(156 372)">
-              <rect width="100" height="56" rx="6"/>
-              <circle class="node-led" cx="88" cy="12" r="4"/>
+              <rect width="100" height="56" rx="6" />
+              <circle class="node-led" cx="88" cy="12" r="4" />
               <text x="46" y="26" class="node-name">Annuaire AD</text>
               <text x="46" y="42" class="node-type">droits, comptes</text>
             </a>
             <a href="#p-homelab" class="node" data-node="homelab" data-status="wip" transform="translate(266 372)">
-              <rect width="100" height="56" rx="6"/>
-              <circle class="node-led" cx="88" cy="12" r="4"/>
+              <rect width="100" height="56" rx="6" />
+              <circle class="node-led" cx="88" cy="12" r="4" />
               <text x="46" y="26" class="node-name">Proxmox VE</text>
               <text x="46" y="42" class="node-type">VM OMV, Docker</text>
             </a>
             <a href="#p-postes" class="node" data-node="postes" data-status="ongoing" transform="translate(376 360)">
-              <rect width="112" height="56" rx="6"/>
-              <circle class="node-led" cx="100" cy="12" r="4"/>
+              <rect width="112" height="56" rx="6" />
+              <circle class="node-led" cx="100" cy="12" r="4" />
               <text x="52" y="26" class="node-name">Postes</text>
               <text x="52" y="42" class="node-type">Windows 11</text>
             </a>
@@ -222,7 +253,8 @@
             <span class="legend"><i class="led led-done"></i>Terminé</span>
             <span class="legend"><i class="led led-wip"></i>En cours</span>
             <span class="legend"><i class="led led-ongoing"></i>Mission continue</span>
-            <span class="topo-readout" id="topoReadout" aria-live="polite">Cliquez sur un équipement pour ouvrir sa fiche projet</span>
+            <span class="topo-readout" id="topoReadout" aria-live="polite">Cliquez sur un équipement pour ouvrir sa
+              fiche projet</span>
           </figcaption>
         </figure>
       </div>
@@ -235,9 +267,16 @@
       <div class="wrap profile-grid">
         <div class="prose">
           <h2 class="section-title">Profil</h2>
-          <p>Je m’appelle Axel Royer et je suis en deuxième année de BTS SIO option SISR (Solutions d’Infrastructure, Systèmes et Réseaux). Je suis en <strong>reconversion professionnelle</strong> : j’ai choisi de transformer une passion de longue date pour l’informatique en un vrai projet de carrière.</p>
-          <p>En alternance chez <strong>Riou Glass</strong> à Honfleur depuis septembre 2025, j’interviens sur l’assistance aux utilisateurs, la gestion du parc informatique et l’administration de la messagerie et des comptes. Le terrain me permet de mettre en pratique ce que j’apprends en formation et de construire une approche professionnelle du support et de l’administration système.</p>
-          <p>Mon objectif : obtenir mon diplôme, puis poursuivre en 3e année pour devenir <strong>administrateur systèmes et réseaux</strong> ou me spécialiser en <strong>cybersécurité</strong>, à l’aise sur Windows, Linux et la virtualisation, pour contribuer à des infrastructures fiables, sécurisées et performantes.</p>
+          <p>Je m’appelle Axel Royer et je suis en deuxième année de BTS SIO option SISR (Solutions d’Infrastructure,
+            Systèmes et Réseaux). Je suis en <strong>reconversion professionnelle</strong> : j’ai choisi de transformer
+            une passion de longue date pour l’informatique en un vrai projet de carrière.</p>
+          <p>En alternance chez <strong>Riou Glass</strong> à Honfleur depuis septembre 2025, j’interviens sur
+            l’assistance aux utilisateurs, la gestion du parc informatique et l’administration de la messagerie et des
+            comptes. Le terrain me permet de mettre en pratique ce que j’apprends en formation et de construire une
+            approche professionnelle du support et de l’administration système.</p>
+          <p>Mon objectif : obtenir mon diplôme, puis poursuivre en 3e année pour devenir <strong>administrateur
+              systèmes et réseaux</strong> ou me spécialiser en <strong>cybersécurité</strong>, à l’aise sur Windows,
+            Linux et la virtualisation, pour contribuer à des infrastructures fiables, sécurisées et performantes.</p>
         </div>
 
         <!-- Étiquette d'inventaire -->
@@ -247,12 +286,30 @@
             <span class="asset-id">Session 2027</span>
           </div>
           <dl class="asset-fields">
-            <div><dt>Nom</dt><dd>Axel Royer</dd></div>
-            <div><dt>Formation</dt><dd>BTS SIO, option SISR</dd></div>
-            <div><dt>École</dt><dd>E2SE Caen</dd></div>
-            <div><dt>Entreprise</dt><dd>Riou Glass, Honfleur</dd></div>
-            <div><dt>Intérêts</dt><dd>Réseaux, cybersécurité, Linux</dd></div>
-            <div><dt>Objectif</dt><dd>Administrateur systèmes et réseaux ou cybersécurité</dd></div>
+            <div>
+              <dt>Nom</dt>
+              <dd>Axel Royer</dd>
+            </div>
+            <div>
+              <dt>Formation</dt>
+              <dd>BTS SIO, option SISR</dd>
+            </div>
+            <div>
+              <dt>École</dt>
+              <dd>E2SE Caen</dd>
+            </div>
+            <div>
+              <dt>Entreprise</dt>
+              <dd>Riou Glass, Honfleur</dd>
+            </div>
+            <div>
+              <dt>Intérêts</dt>
+              <dd>Réseaux, cybersécurité, Linux</dd>
+            </div>
+            <div>
+              <dt>Objectif</dt>
+              <dd>Administrateur systèmes et réseaux ou cybersécurité</dd>
+            </div>
           </dl>
           <div class="asset-barcode" aria-hidden="true"></div>
         </aside>
@@ -264,7 +321,8 @@
           <li class="tl-item">
             <span class="tl-when">Avant 2025</span>
             <span class="tl-what">Brancardier</span>
-            <span class="tl-desc">Quatre ans dans le secteur de la santé, au contact des personnes : écoute, rigueur et gestion des priorités.</span>
+            <span class="tl-desc">Quatre ans dans le secteur de la santé, au contact des personnes : écoute, rigueur et
+              gestion des priorités.</span>
           </li>
           <li class="tl-item">
             <span class="tl-when">2025</span>
@@ -274,17 +332,20 @@
           <li class="tl-item">
             <span class="tl-when">Sept. 2025</span>
             <span class="tl-what">BTS SIO SISR et alternance</span>
-            <span class="tl-desc">Entrée à E2SE Caen et arrivée chez Riou Glass comme technicien systèmes et réseaux.</span>
+            <span class="tl-desc">Entrée à E2SE Caen et arrivée chez Riou Glass comme technicien systèmes et
+              réseaux.</span>
           </li>
           <li class="tl-item">
             <span class="tl-when">Début 2026</span>
             <span class="tl-what">Homelab à la maison</span>
-            <span class="tl-desc">Serveur personnel qui héberge stockage et services conteneurisés, avec accès distant sans port ouvert, supervision et sauvegardes.</span>
+            <span class="tl-desc">Serveur personnel qui héberge stockage et services conteneurisés, avec accès distant
+              sans port ouvert, supervision et sauvegardes.</span>
           </li>
           <li class="tl-item">
             <span class="tl-when">Été 2026</span>
             <span class="tl-what">Déploiement de Bookaru</span>
-            <span class="tl-desc">Une application mise en ligne en HTTPS depuis mon serveur, sans ouvrir de port, avec mises à jour automatiques.</span>
+            <span class="tl-desc">Une application mise en ligne en HTTPS depuis mon serveur, sans ouvrir de port, avec
+              mises à jour automatiques.</span>
           </li>
           <li class="tl-item">
             <span class="tl-when">Sept. 2026</span>
@@ -294,12 +355,14 @@
           <li class="tl-item">
             <span class="tl-when">Nov. 2026</span>
             <span class="tl-what">Homelab sur Proxmox</span>
-            <span class="tl-desc">Mon homelab reproduit sur la baie de l’école : virtualisation, sécurité, supervision et sauvegarde testée (épreuve E6).</span>
+            <span class="tl-desc">Mon homelab reproduit sur la baie de l’école : virtualisation, sécurité, supervision
+              et sauvegarde testée (épreuve E6).</span>
           </li>
           <li class="tl-item tl-next">
             <span class="tl-when">Objectif</span>
             <span class="tl-what">Diplôme, puis 3e année</span>
-            <span class="tl-desc">Obtention du BTS, puis 3e année pour viser administrateur systèmes et réseaux ou cybersécurité.</span>
+            <span class="tl-desc">Obtention du BTS, puis 3e année pour viser administrateur systèmes et réseaux ou
+              cybersécurité.</span>
           </li>
         </ol>
       </div>
@@ -312,7 +375,8 @@
       <div class="wrap">
         <div class="section-head">
           <h2 class="section-title">Alternance</h2>
-          <p class="section-intro">Technicien systèmes et réseaux chez Riou Glass depuis septembre 2025. Voici mes missions au quotidien, chacune détaillée dans sa fiche.</p>
+          <p class="section-intro">Technicien systèmes et réseaux chez Riou Glass depuis septembre 2025. Voici mes
+            missions au quotidien, chacune détaillée dans sa fiche.</p>
         </div>
 
         <div class="company">
@@ -324,10 +388,22 @@
             </div>
           </div>
           <dl class="company-facts">
-            <div><dt>Effectif</dt><dd>~1 400</dd></div>
-            <div><dt>Forme</dt><dd>SAS</dd></div>
-            <div><dt>Secteur</dt><dd>Industrie</dd></div>
-            <div><dt>Depuis</dt><dd><span>Sept. 2025</span><small class="since" data-since="2025-09-01"></small></dd></div>
+            <div>
+              <dt>Effectif</dt>
+              <dd>~1 400</dd>
+            </div>
+            <div>
+              <dt>Forme</dt>
+              <dd>SAS</dd>
+            </div>
+            <div>
+              <dt>Secteur</dt>
+              <dd>Industrie</dd>
+            </div>
+            <div>
+              <dt>Depuis</dt>
+              <dd><span>Sept. 2025</span><small class="since" data-since="2025-09-01"></small></dd>
+            </div>
           </dl>
         </div>
 
@@ -338,53 +414,82 @@
              ========================================================= -->
         <div class="rack" id="missions">
 
-          <article class="unit" id="p-support" data-context="entreprise" data-status="ongoing" data-comp="1,2,5,6" data-period="Sept. 2025, en cours">
+          <article class="unit" id="p-support" data-context="entreprise" data-status="ongoing" data-comp="1,2,5,6"
+            data-period="Sept. 2025, en cours">
             <div class="unit-status"><i class="led led-ongoing"></i><span>En continu</span></div>
             <div class="unit-body">
               <p class="unit-context">Entreprise <span class="unit-period">Sept. 2025, en cours</span></p>
               <h3 class="unit-title">Gestion des demandes et incidents</h3>
-              <p class="unit-desc">Réception, qualification et résolution des demandes et incidents des collaborateurs dans GLPI, de l’ouverture du ticket à sa clôture, avec prise en main à distance des postes et traitement des demandes d’arrivée et de départ.</p>
-              <ul class="tags"><li>GLPI</li><li>Dameware</li><li>Niveaux 1 et 2</li><li>Base de connaissances</li></ul>
+              <p class="unit-desc">Réception, qualification et résolution des demandes et incidents des collaborateurs
+                dans GLPI, de l’ouverture du ticket à sa clôture, avec prise en main à distance des postes et traitement
+                des demandes d’arrivée et de départ.</p>
+              <ul class="tags">
+                <li>GLPI</li>
+                <li>Dameware</li>
+                <li>Niveaux 1 et 2</li>
+                <li>Base de connaissances</li>
+              </ul>
             </div>
             <div class="unit-links">
               <button type="button" class="btn-sheet" data-open="p-support">Voir la fiche mission</button>
-              <a href="docs/doc-glpi-demandes-incidents.pdf" data-viewer target="_blank" rel="noopener">Procédure de gestion des tickets <small>PDF, 5 p.</small></a>
-              <a href="https://glpi-user-documentation.readthedocs.io/fr/latest/" target="_blank" rel="noopener">Documentation GLPI <small>Lien externe</small></a>
+              <a href="docs/doc-glpi-demandes-incidents.pdf" data-viewer target="_blank" rel="noopener">Procédure de
+                gestion des tickets <small>PDF, 5 p.</small></a>
+              <a href="https://glpi-user-documentation.readthedocs.io/fr/latest/" target="_blank"
+                rel="noopener">Documentation GLPI <small>Lien externe</small></a>
             </div>
             <div class="unit-detail" hidden>
               <section>
                 <h4>Contexte</h4>
-                <p>Assurer un support homogène, tracé et mesurable aux collaborateurs. Un <strong>incident</strong> est le dysfonctionnement d’un service existant (poste, imprimante, réseau, application, messagerie) ; une <strong>demande</strong> est un besoin nouveau ou une évolution (matériel, accès, logiciel). Chacun donne lieu à un ticket GLPI.</p>
+                <p>Assurer un support homogène, tracé et mesurable aux collaborateurs. Un <strong>incident</strong> est
+                  le dysfonctionnement d’un service existant (poste, imprimante, réseau, application, messagerie) ; une
+                  <strong>demande</strong> est un besoin nouveau ou une évolution (matériel, accès, logiciel). Chacun
+                  donne lieu à un ticket GLPI.</p>
               </section>
               <section>
                 <h4>Traitement d’un ticket</h4>
                 <ul class="check-list">
-                  <li><strong>Prise en charge :</strong> consultation de la file des tickets non attribués, attribution du ticket à moi-même et au groupe de support dans le bloc Acteurs, accusé de réception au demandeur si le délai risque d’être long</li>
-                  <li><strong>Qualification :</strong> type (incident ou demande), catégorie, source de la demande et lieu ; urgence et impact, qui calculent la priorité ; lien avec le matériel concerné de l’inventaire</li>
-                  <li><strong>Diagnostic :</strong> recherche d’une solution dans la base de connaissances, prise en main à distance avec Dameware après accord de l’utilisateur, chaque action consignée dans une tâche avec sa durée</li>
-                  <li><strong>Escalade :</strong> si le problème dépasse le niveau 1, réaffectation au niveau 2 avec un résumé de ce qui a déjà été vérifié</li>
-                  <li><strong>Résolution :</strong> vérification avec l’utilisateur, solution rédigée (cause et action corrective), clôture après validation du demandeur ou automatiquement après une semaine</li>
-                  <li><strong>Capitalisation :</strong> article de base de connaissances quand l’incident est récurrent ou que la solution n’était pas documentée</li>
+                  <li><strong>Prise en charge :</strong> consultation de la file des tickets non attribués, attribution
+                    du ticket à moi-même et au groupe de support dans le bloc Acteurs, accusé de réception au demandeur
+                    si le délai risque d’être long</li>
+                  <li><strong>Qualification :</strong> type (incident ou demande), catégorie, source de la demande et
+                    lieu ; urgence et impact, qui calculent la priorité ; lien avec le matériel concerné de l’inventaire
+                  </li>
+                  <li><strong>Diagnostic :</strong> recherche d’une solution dans la base de connaissances, prise en
+                    main à distance avec Dameware après accord de l’utilisateur, chaque action consignée dans une tâche
+                    avec sa durée</li>
+                  <li><strong>Escalade :</strong> si le problème dépasse le niveau 1, réaffectation au niveau 2 avec un
+                    résumé de ce qui a déjà été vérifié</li>
+                  <li><strong>Résolution :</strong> vérification avec l’utilisateur, solution rédigée (cause et action
+                    corrective), clôture après validation du demandeur ou automatiquement après une semaine</li>
+                  <li><strong>Capitalisation :</strong> article de base de connaissances quand l’incident est récurrent
+                    ou que la solution n’était pas documentée</li>
                 </ul>
               </section>
               <section>
                 <h4>Demandes d’arrivée et de départ</h4>
-                <p>Le responsable dépose un formulaire GLPI, qui génère un ticket de type Demande ; chaque action est tracée par une tâche.</p>
+                <p>Le responsable dépose un formulaire GLPI, qui génère un ticket de type Demande ; chaque action est
+                  tracée par une tâche.</p>
                 <ul class="check-list">
-                  <li><strong>Arrivée :</strong> vérification du formulaire, création du compte Active Directory, de la boîte aux lettres et préparation du poste, remise du matériel et mise à jour de l’inventaire</li>
-                  <li><strong>Départ :</strong> désactivation du compte à la date de départ, traitement de la boîte aux lettres selon la consigne, récupération du matériel puis reconditionnement du poste pour réaffectation</li>
+                  <li><strong>Arrivée :</strong> vérification du formulaire, création du compte Active Directory, de la
+                    boîte aux lettres et préparation du poste, remise du matériel et mise à jour de l’inventaire</li>
+                  <li><strong>Départ :</strong> désactivation du compte à la date de départ, traitement de la boîte aux
+                    lettres selon la consigne, récupération du matériel puis reconditionnement du poste pour
+                    réaffectation</li>
                 </ul>
               </section>
               <section>
                 <h4>Contrôles et bonnes pratiques</h4>
                 <ul class="check-list">
-                  <li>Type, catégorie et priorité renseignés, matériel lié au ticket, temps passé saisi, solution compréhensible par un autre technicien</li>
-                  <li>Une demande = un ticket, jamais de mot de passe dans un ticket, prise en main à distance uniquement avec l’accord de l’utilisateur, relance des tickets en attente</li>
+                  <li>Type, catégorie et priorité renseignés, matériel lié au ticket, temps passé saisi, solution
+                    compréhensible par un autre technicien</li>
+                  <li>Une demande = un ticket, jamais de mot de passe dans un ticket, prise en main à distance
+                    uniquement avec l’accord de l’utilisateur, relance des tickets en attente</li>
                 </ul>
               </section>
               <section>
                 <h4>Acquis</h4>
-                <p>Rédaction de fiches de procédure, constitution d’une base de connaissances, méthode de diagnostic et maîtrise de GLPI.</p>
+                <p>Rédaction de fiches de procédure, constitution d’une base de connaissances, méthode de diagnostic et
+                  maîtrise de GLPI.</p>
               </section>
               <!-- À COMPLÉTER (visible dès que tu retires les balises de commentaire) :
               <section>
@@ -400,38 +505,58 @@
             </div>
           </article>
 
-          <article class="unit" id="p-postes" data-context="entreprise" data-status="ongoing" data-comp="1,5,6" data-period="Sept. 2025, en cours">
+          <article class="unit" id="p-postes" data-context="entreprise" data-status="ongoing" data-comp="1,5,6"
+            data-period="Sept. 2025, en cours">
             <div class="unit-status"><i class="led led-ongoing"></i><span>En continu</span></div>
             <div class="unit-body">
               <p class="unit-context">Entreprise <span class="unit-period">Sept. 2025, en cours</span></p>
               <h3 class="unit-title">Préparation de postes de travail</h3>
-              <p class="unit-desc">Préparation d’un poste neuf ou réaffecté : démarrage par le réseau (PXE avec WDS), installation de Windows 11, intégration dans Active Directory, configuration et remise à l’utilisateur après une liste de contrôle.</p>
-              <ul class="tags"><li>PXE</li><li>WDS</li><li>Windows 11</li><li>Active Directory</li><li>Lansweeper</li></ul>
+              <p class="unit-desc">Préparation d’un poste neuf ou réaffecté : démarrage par le réseau (PXE avec WDS),
+                installation de Windows 11, intégration dans Active Directory, configuration et remise à l’utilisateur
+                après une liste de contrôle.</p>
+              <ul class="tags">
+                <li>PXE</li>
+                <li>WDS</li>
+                <li>Windows 11</li>
+                <li>Active Directory</li>
+                <li>Lansweeper</li>
+              </ul>
             </div>
             <div class="unit-links">
               <button type="button" class="btn-sheet" data-open="p-postes">Voir la fiche mission</button>
-              <a href="docs/doc-preparation-poste-travail.pdf" data-viewer target="_blank" rel="noopener">Procédure de préparation d’un poste <small>PDF, 4 p.</small></a>
+              <a href="docs/doc-preparation-poste-travail.pdf" data-viewer target="_blank" rel="noopener">Procédure de
+                préparation d’un poste <small>PDF, 4 p.</small></a>
             </div>
             <div class="unit-detail" hidden>
               <section>
                 <h4>Contexte</h4>
-                <p>Obtenir un poste standard, fonctionnel et référencé pour un nouvel arrivant, un remplacement ou une réaffectation, à partir d’un ticket GLPI. Les postes récupérés d’un autre utilisateur suivent d’abord la procédure de reconditionnement.</p>
+                <p>Obtenir un poste standard, fonctionnel et référencé pour un nouvel arrivant, un remplacement ou une
+                  réaffectation, à partir d’un ticket GLPI. Les postes récupérés d’un autre utilisateur suivent d’abord
+                  la procédure de reconditionnement.</p>
               </section>
               <section>
                 <h4>Réalisation</h4>
                 <ul class="check-list">
-                  <li><strong>Réception :</strong> contrôle de l’état du matériel, relevé du numéro de série et du modèle, nom du poste selon la convention</li>
-                  <li><strong>BIOS / UEFI :</strong> démarrage réseau (PXE) activé, TPM 2.0 et Secure Boot vérifiés car exigés par Windows 11</li>
-                  <li><strong>Déploiement :</strong> démarrage PXE sur le serveur WDS, choix de l’image Windows 11 standard, installation et redémarrages</li>
-                  <li><strong>Annuaire :</strong> jonction au domaine, objet ordinateur arrivé dans l’OU temporaire _Masterisation_, description renseignée au format « Nom du site » - « Utilisateur » - « Ref PC » - « ref LAFI et ticket », puis déplacement vers l’OU du site sous _Ordinateurs_</li>
-                  <li><strong>Configuration :</strong> mises à jour Windows, pilotes sans erreur, applications standards, antivirus</li>
-                  <li><strong>Session utilisateur :</strong> lecteurs réseau et imprimantes du service, messagerie Outlook testée en envoi et en réception</li>
+                  <li><strong>Réception :</strong> contrôle de l’état du matériel, relevé du numéro de série et du
+                    modèle, nom du poste selon la convention</li>
+                  <li><strong>BIOS / UEFI :</strong> démarrage réseau (PXE) activé, TPM 2.0 et Secure Boot vérifiés car
+                    exigés par Windows 11</li>
+                  <li><strong>Déploiement :</strong> démarrage PXE sur le serveur WDS, choix de l’image Windows 11
+                    standard, installation et redémarrages</li>
+                  <li><strong>Annuaire :</strong> jonction au domaine, objet ordinateur arrivé dans l’OU temporaire
+                    _Masterisation_, description renseignée au format « Nom du site » - « Utilisateur » - « Ref PC » - «
+                    ref LAFI et ticket », puis déplacement vers l’OU du site sous _Ordinateurs_</li>
+                  <li><strong>Configuration :</strong> mises à jour Windows, pilotes sans erreur, applications
+                    standards, antivirus</li>
+                  <li><strong>Session utilisateur :</strong> lecteurs réseau et imprimantes du service, messagerie
+                    Outlook testée en envoi et en réception</li>
                 </ul>
               </section>
               <section>
                 <h4>Liste de contrôle avant remise</h4>
                 <ul class="check-list">
-                  <li>Nom du poste conforme, poste joint au domaine dans la bonne OU, description de l’objet ordinateur renseignée</li>
+                  <li>Nom du poste conforme, poste joint au domaine dans la bonne OU, description de l’objet ordinateur
+                    renseignée</li>
                   <li>Windows à jour, aucun pilote en erreur, applications standards et antivirus actifs</li>
                   <li>Lecteurs réseau, imprimantes et messagerie fonctionnels</li>
                   <li>Inventaire (Lansweeper, GLPI) à jour et ticket résolu</li>
@@ -451,22 +576,33 @@
             </div>
           </article>
 
-          <article class="unit" id="p-parc" data-context="entreprise" data-status="ongoing" data-comp="1,4,5,6" data-period="Sept. 2025, en cours">
+          <article class="unit" id="p-parc" data-context="entreprise" data-status="ongoing" data-comp="1,4,5,6"
+            data-period="Sept. 2025, en cours">
             <div class="unit-status"><i class="led led-ongoing"></i><span>En continu</span></div>
             <div class="unit-body">
               <p class="unit-context">Entreprise <span class="unit-period">Sept. 2025, en cours</span></p>
               <h3 class="unit-title">Gestion et reconditionnement du parc</h3>
-              <p class="unit-desc">Inventaire du parc avec Lansweeper, renouvellement des postes obsolètes, et reconditionnement des postes récupérés lors de la fermeture d’un site industriel, selon une procédure que j’ai formalisée.</p>
-              <ul class="tags"><li>Lansweeper</li><li>Masterisation</li><li>Windows 11 25H2</li><li>Active Directory</li><li>Windows Toolkit</li></ul>
+              <p class="unit-desc">Inventaire du parc avec Lansweeper, renouvellement des postes obsolètes, et
+                reconditionnement des postes récupérés lors de la fermeture d’un site industriel, selon une procédure
+                que j’ai formalisée.</p>
+              <ul class="tags">
+                <li>Lansweeper</li>
+                <li>Masterisation</li>
+                <li>Windows 11 25H2</li>
+                <li>Active Directory</li>
+                <li>Windows Toolkit</li>
+              </ul>
             </div>
             <div class="unit-links">
               <button type="button" class="btn-sheet" data-open="p-parc">Voir la fiche mission</button>
-              <a href="docs/procedure-reconditionnement-postes.pdf" data-viewer target="_blank" rel="noopener">Procédure de reconditionnement <small>PDF, 5 p.</small></a>
+              <a href="docs/procedure-reconditionnement-postes.pdf" data-viewer target="_blank" rel="noopener">Procédure
+                de reconditionnement <small>PDF, 5 p.</small></a>
             </div>
             <div class="unit-detail" hidden>
               <section>
                 <h4>Contexte</h4>
-                <p>Maintenir un parc de postes à jour et homogène : renouveler les postes obsolètes et remettre en service ceux d’un site industriel fermé, avec une traçabilité complète de chaque équipement.</p>
+                <p>Maintenir un parc de postes à jour et homogène : renouveler les postes obsolètes et remettre en
+                  service ceux d’un site industriel fermé, avec une traçabilité complète de chaque équipement.</p>
               </section>
               <section>
                 <h4>Renouvellement</h4>
@@ -477,28 +613,38 @@
               </section>
               <section>
                 <h4>Reconditionnement après fermeture d’un site industriel</h4>
-                <p>Procédure standardisée de récupération, de reconditionnement et de remise en service des postes clients Windows du site fermé : unités centrales, portables et périphériques associés.</p>
+                <p>Procédure standardisée de récupération, de reconditionnement et de remise en service des postes
+                  clients Windows du site fermé : unités centrales, portables et périphériques associés.</p>
                 <ol class="phase-list">
-                  <li>Récupération des équipements, contrôle visuel et fonctionnel, identification (nom machine, numéro de série, modèle)</li>
-                  <li>Référencement dans un fichier de suivi : poste, série et modèle, utilisateur précédent et service, état matériel, date de récupération, statut (à masteriser, en cours, terminé)</li>
+                  <li>Récupération des équipements, contrôle visuel et fonctionnel, identification (nom machine, numéro
+                    de série, modèle)</li>
+                  <li>Référencement dans un fichier de suivi : poste, série et modèle, utilisateur précédent et service,
+                    état matériel, date de récupération, statut (à masteriser, en cours, terminé)</li>
                   <li>Décommissionnement : suppression des objets ordinateurs dans Active Directory et vérification</li>
-                  <li>Masterisation avec Windows Toolkit : image standard Windows 11 25H2 et contrôles qualité (activation, pilotes, mises à jour, applications)</li>
-                  <li>Réintégration : poste arrivé dans l’OU temporaire _Masterisation_, description de l’objet renseignée, déplacement vers l’OU du site sous _Ordinateurs_</li>
-                  <li>Étiquette d’inventaire (nom du poste, numéro d’inventaire, année de remise en service) et clôture dans le suivi</li>
+                  <li>Masterisation avec Windows Toolkit : image standard Windows 11 25H2 et contrôles qualité
+                    (activation, pilotes, mises à jour, applications)</li>
+                  <li>Réintégration : poste arrivé dans l’OU temporaire _Masterisation_, description de l’objet
+                    renseignée, déplacement vers l’OU du site sous _Ordinateurs_</li>
+                  <li>Étiquette d’inventaire (nom du poste, numéro d’inventaire, année de remise en service) et clôture
+                    dans le suivi</li>
                 </ol>
               </section>
               <section>
                 <h4>Points de vigilance et contrôles</h4>
                 <ul class="check-list">
-                  <li>La masterisation efface entièrement le disque : vérifier avant qu’aucune donnée de l’ancien utilisateur n’est à conserver</li>
-                  <li>Les postes jugés hors service ne sont pas remis en service : ils sont dirigés vers l’OU _Quarantaine_REBUT</li>
-                  <li>Conformité à l’image standard, présence dans la bonne OU avec sa description, validation dans le suivi, archivage du suivi sur l’espace IT partagé</li>
+                  <li>La masterisation efface entièrement le disque : vérifier avant qu’aucune donnée de l’ancien
+                    utilisateur n’est à conserver</li>
+                  <li>Les postes jugés hors service ne sont pas remis en service : ils sont dirigés vers l’OU
+                    _Quarantaine_REBUT</li>
+                  <li>Conformité à l’image standard, présence dans la bonne OU avec sa description, validation dans le
+                    suivi, archivage du suivi sur l’espace IT partagé</li>
                 </ul>
               </section>
               <section>
                 <h4>Résultat attendu</h4>
                 <ul class="check-list">
-                  <li>Postes supprimés proprement du domaine initial, réinstallés sous Windows 11 25H2 et réintégrés dans la bonne OU</li>
+                  <li>Postes supprimés proprement du domaine initial, réinstallés sous Windows 11 25H2 et réintégrés
+                    dans la bonne OU</li>
                   <li>Équipements référencés et étiquetés, prêts pour redistribution ou stockage</li>
                 </ul>
               </section>
@@ -516,38 +662,52 @@
             </div>
           </article>
 
-          <article class="unit" id="p-migration-25h2" data-context="entreprise" data-status="wip" data-comp="1,2,4,5,6" data-period="Octobre 2026, en cours">
+          <article class="unit" id="p-migration-25h2" data-context="entreprise" data-status="wip" data-comp="1,2,4,5,6"
+            data-period="Octobre 2026, en cours">
             <div class="unit-status"><i class="led led-wip"></i><span>En cours</span></div>
             <div class="unit-body">
               <p class="unit-context">Entreprise <span class="unit-period">Octobre 2026, en cours</span></p>
               <h3 class="unit-title">Migration du parc vers Windows 11 25H2</h3>
-              <p class="unit-desc">Campagne de mise à jour d’environ 150 postes vers Windows 11 25H2 par image ISO, pilotée à partir de l’inventaire Lansweeper avec un suivi de l’avancement poste par poste.</p>
-              <ul class="tags"><li>Windows 11 25H2</li><li>Image ISO</li><li>Lansweeper</li><li>Suivi Excel</li></ul>
+              <p class="unit-desc">Campagne de mise à jour d’environ 150 postes vers Windows 11 25H2 par image ISO,
+                pilotée à partir de l’inventaire Lansweeper avec un suivi de l’avancement poste par poste.</p>
+              <ul class="tags">
+                <li>Windows 11 25H2</li>
+                <li>Image ISO</li>
+                <li>Lansweeper</li>
+                <li>Suivi Excel</li>
+              </ul>
             </div>
             <div class="unit-links">
               <button type="button" class="btn-sheet" data-open="p-migration-25h2">Voir la fiche mission</button>
-              <a href="docs/doc-migration-windows11-25h2.pdf" data-viewer target="_blank" rel="noopener">Procédure de migration <small>PDF, 2 p.</small></a>
+              <a href="docs/doc-migration-windows11-25h2.pdf" data-viewer target="_blank" rel="noopener">Procédure de
+                migration <small>PDF, 2 p.</small></a>
             </div>
             <div class="unit-detail" hidden>
               <section>
                 <h4>Contexte</h4>
-                <p>Passer les postes de l’entreprise à la version 25H2 de Windows 11, sur un parc d’environ 150 machines.</p>
+                <p>Passer les postes de l’entreprise à la version 25H2 de Windows 11, sur un parc d’environ 150
+                  machines.</p>
               </section>
               <section>
                 <h4>Réalisation</h4>
                 <ul class="check-list">
                   <li>Extraction de l’inventaire depuis Lansweeper pour identifier les postes à mettre à jour</li>
-                  <li>Mise à jour des postes par image ISO, en conservant fichiers et applications, avec une indisponibilité moyenne de 1 h 30 par poste à convenir avec l’utilisateur</li>
-                  <li>Fichier Excel de suivi tenu à jour au fil de la campagne (statut, date, incident rencontré) pour suivre l’avancement</li>
-                  <li>Procédure rédigée : préparation de la campagne, mise à niveau d’un poste, cas particuliers et contrôles</li>
+                  <li>Mise à jour des postes par image ISO, en conservant fichiers et applications, avec une
+                    indisponibilité moyenne de 1 h 30 par poste à convenir avec l’utilisateur</li>
+                  <li>Fichier Excel de suivi tenu à jour au fil de la campagne (statut, date, incident rencontré) pour
+                    suivre l’avancement</li>
+                  <li>Procédure rédigée : préparation de la campagne, mise à niveau d’un poste, cas particuliers et
+                    contrôles</li>
                 </ul>
               </section>
               <section>
                 <h4>Difficultés et solutions</h4>
                 <ul class="issue-list">
                   <li>
-                    <span class="issue-pb">Des mises à jour échouaient : les adresses IP des postes devaient être autorisées</span>
-                    <span class="issue-fix">Ajout des adresses des postes concernés en liste blanche dans la console du pare-feu Forti, puis relance de la mise à jour</span>
+                    <span class="issue-pb">Des mises à jour échouaient : les adresses IP des postes devaient être
+                      autorisées</span>
+                    <span class="issue-fix">Ajout des adresses des postes concernés en liste blanche dans la console du
+                      pare-feu Forti, puis relance de la mise à jour</span>
                   </li>
                   <li>
                     <span class="issue-pb">Les tablettes Surface à processeur Snapdragon ne sont pas compatibles</span>
@@ -566,50 +726,79 @@
             </div>
           </article>
 
-          <article class="unit" id="p-ad" data-context="entreprise" data-status="ongoing" data-comp="1,5,6" data-period="Sept. 2025, en cours">
+          <article class="unit" id="p-ad" data-context="entreprise" data-status="ongoing" data-comp="1,5,6"
+            data-period="Sept. 2025, en cours">
             <div class="unit-status"><i class="led led-ongoing"></i><span>En continu</span></div>
             <div class="unit-body">
               <p class="unit-context">Entreprise <span class="unit-period">Sept. 2025, en cours</span></p>
               <h3 class="unit-title">Gestion des comptes et des droits Active Directory</h3>
-              <p class="unit-desc">Création des comptes, attribution et retrait des droits par groupes de sécurité, réinitialisation de mots de passe et traitement des départs dans l’annuaire, selon le principe du moindre privilège et sur demande tracée dans GLPI.</p>
-              <ul class="tags"><li>Active Directory</li><li>Groupes de sécurité</li><li>Moindre privilège</li><li>RSAT</li></ul>
+              <p class="unit-desc">Création des comptes, attribution et retrait des droits par groupes de sécurité,
+                réinitialisation de mots de passe et traitement des départs dans l’annuaire, selon le principe du
+                moindre privilège et sur demande tracée dans GLPI.</p>
+              <ul class="tags">
+                <li>Active Directory</li>
+                <li>Groupes de sécurité</li>
+                <li>Moindre privilège</li>
+                <li>RSAT</li>
+              </ul>
             </div>
             <div class="unit-links">
               <button type="button" class="btn-sheet" data-open="p-ad">Voir la fiche mission</button>
-              <a href="docs/doc-droits-active-directory.pdf" data-viewer target="_blank" rel="noopener">Procédure comptes et droits <small>PDF, 5 p.</small></a>
+              <a href="docs/doc-droits-active-directory.pdf" data-viewer target="_blank" rel="noopener">Procédure
+                comptes et droits <small>PDF, 5 p.</small></a>
             </div>
             <div class="unit-detail" hidden>
               <section>
                 <h4>Contexte</h4>
-                <p>Gérer les comptes utilisateurs et leurs droits en respectant le principe du <strong>moindre privilège</strong> : chacun n’a que les accès nécessaires à son poste. Aucun droit n’est accordé sans demande validée par le responsable dans un ticket GLPI.</p>
+                <p>Gérer les comptes utilisateurs et leurs droits en respectant le principe du <strong>moindre
+                    privilège</strong> : chacun n’a que les accès nécessaires à son poste. Aucun droit n’est accordé
+                  sans demande validée par le responsable dans un ticket GLPI.</p>
               </section>
               <section>
                 <h4>Organisation de l’annuaire</h4>
                 <ul class="check-list">
-                  <li>Les OU de l’entreprise se reconnaissent à leur nom encadré de tirets bas : _Utilisateurs_, _Groupes_, _Ordinateurs_ (une OU par site), _Masterisation_ (arrivée des postes en masterisation), _Serveurs_, _COMPTES_SERVICES_, _ADM_ et _Quarantaine_REBUT (poste hors service ou trop ancien)</li>
-                  <li>Les droits ne sont jamais donnés à une personne mais à un <strong>groupe de sécurité</strong>, qui a accès à la ressource : un départ ou une mutation se gère en retirant l’utilisateur des groupes</li>
-                  <li>Les groupes sont rangés dans _Groupes_, classés par usage dans des sous-dossiers (par exemple Groupes_GLPI et LICENCESOFFICE)</li>
+                  <li>Les OU de l’entreprise se reconnaissent à leur nom encadré de tirets bas : _Utilisateurs_,
+                    _Groupes_, _Ordinateurs_ (une OU par site), _Masterisation_ (arrivée des postes en masterisation),
+                    _Serveurs_, _COMPTES_SERVICES_, _ADM_ et _Quarantaine_REBUT (poste hors service ou trop ancien)</li>
+                  <li>Les droits ne sont jamais donnés à une personne mais à un <strong>groupe de sécurité</strong>, qui
+                    a accès à la ressource : un départ ou une mutation se gère en retirant l’utilisateur des groupes
+                  </li>
+                  <li>Les groupes sont rangés dans _Groupes_, classés par usage dans des sous-dossiers (par exemple
+                    Groupes_GLPI et LICENCESOFFICE)</li>
                 </ul>
               </section>
               <section>
                 <h4>Réalisation</h4>
                 <ul class="check-list">
-                  <li><strong>Création d’un compte :</strong> dans l’OU _Utilisateurs_ puis le dossier du service, mot de passe initial avec changement obligatoire à la première ouverture de session, description renseignée, ajout aux groupes de son service et de ses outils (onglet Membre de)</li>
-                  <li><strong>Attribution ou retrait d’un droit :</strong> ajout ou suppression du groupe concerné, contrôle de son dossier quand plusieurs noms correspondent, nouvelle ouverture de session de l’utilisateur, test d’accès, opération notée dans le ticket ; en cas de mutation, retrait des groupes de l’ancien service avant l’ajout des nouveaux</li>
-                  <li><strong>Mot de passe et verrouillage :</strong> vérification de l’identité du demandeur, réinitialisation avec changement obligatoire, déverrouillage si besoin, mot de passe temporaire transmis par un canal sûr et jamais dans le ticket</li>
-                  <li><strong>Départ d’un collaborateur :</strong> désactivation du compte à la date de départ (sans le supprimer, pour conserver l’historique), date indiquée dans la description, compte déplacé, messagerie traitée selon sa procédure</li>
+                  <li><strong>Création d’un compte :</strong> dans l’OU _Utilisateurs_ puis le dossier du service, mot
+                    de passe initial avec changement obligatoire à la première ouverture de session, description
+                    renseignée, ajout aux groupes de son service et de ses outils (onglet Membre de)</li>
+                  <li><strong>Attribution ou retrait d’un droit :</strong> ajout ou suppression du groupe concerné,
+                    contrôle de son dossier quand plusieurs noms correspondent, nouvelle ouverture de session de
+                    l’utilisateur, test d’accès, opération notée dans le ticket ; en cas de mutation, retrait des
+                    groupes de l’ancien service avant l’ajout des nouveaux</li>
+                  <li><strong>Mot de passe et verrouillage :</strong> vérification de l’identité du demandeur,
+                    réinitialisation avec changement obligatoire, déverrouillage si besoin, mot de passe temporaire
+                    transmis par un canal sûr et jamais dans le ticket</li>
+                  <li><strong>Départ d’un collaborateur :</strong> désactivation du compte à la date de départ (sans le
+                    supprimer, pour conserver l’historique), date indiquée dans la description, compte déplacé,
+                    messagerie traitée selon sa procédure</li>
                 </ul>
               </section>
               <section>
                 <h4>Vigilance et contrôles</h4>
                 <ul class="check-list">
-                  <li>Une recherche sur un nom partiel peut faire remonter des groupes d’administration : contrôler le nom complet et le dossier avant de valider, car un ajout par erreur donnerait des droits très étendus</li>
-                  <li>Accès testé par l’utilisateur, aucun droit accordé directement à un utilisateur, opération tracée dans le ticket GLPI</li>
+                  <li>Une recherche sur un nom partiel peut faire remonter des groupes d’administration : contrôler le
+                    nom complet et le dossier avant de valider, car un ajout par erreur donnerait des droits très
+                    étendus</li>
+                  <li>Accès testé par l’utilisateur, aucun droit accordé directement à un utilisateur, opération tracée
+                    dans le ticket GLPI</li>
                 </ul>
               </section>
               <section>
                 <h4>Acquis</h4>
-                <p>Administration d’annuaire, gestion des droits et des politiques de sécurité, application des standards d’habilitation.</p>
+                <p>Administration d’annuaire, gestion des droits et des politiques de sécurité, application des
+                  standards d’habilitation.</p>
               </section>
               <!-- À COMPLÉTER (visible dès que tu retires les balises de commentaire) :
               <section>
@@ -625,49 +814,73 @@
             </div>
           </article>
 
-          <article class="unit" id="p-exchange" data-context="entreprise" data-status="ongoing" data-comp="1,2,5,6" data-period="Sept. 2025, en cours">
+          <article class="unit" id="p-exchange" data-context="entreprise" data-status="ongoing" data-comp="1,2,5,6"
+            data-period="Sept. 2025, en cours">
             <div class="unit-status"><i class="led led-ongoing"></i><span>En continu</span></div>
             <div class="unit-body">
               <p class="unit-context">Entreprise <span class="unit-period">Sept. 2025, en cours</span></p>
               <h3 class="unit-title">Administration de la messagerie Exchange</h3>
-              <p class="unit-desc">Administration de la messagerie Exchange Online : boîtes aux lettres, boîtes partagées, groupes de distribution et règles de flux, traitement des départs et diagnostic des problèmes de remise avec le suivi des messages.</p>
-              <ul class="tags"><li>Exchange Online</li><li>Groupes de distribution</li><li>Suivi des messages</li><li>Active Directory</li></ul>
+              <p class="unit-desc">Administration de la messagerie Exchange Online : boîtes aux lettres, boîtes
+                partagées, groupes de distribution et règles de flux, traitement des départs et diagnostic des problèmes
+                de remise avec le suivi des messages.</p>
+              <ul class="tags">
+                <li>Exchange Online</li>
+                <li>Groupes de distribution</li>
+                <li>Suivi des messages</li>
+                <li>Active Directory</li>
+              </ul>
             </div>
             <div class="unit-links">
               <button type="button" class="btn-sheet" data-open="p-exchange">Voir la fiche mission</button>
-              <a href="docs/doc-messagerie-exchange.pdf" data-viewer target="_blank" rel="noopener">Procédure d’administration <small>PDF, 5 p.</small></a>
+              <a href="docs/doc-messagerie-exchange.pdf" data-viewer target="_blank" rel="noopener">Procédure
+                d’administration <small>PDF, 5 p.</small></a>
             </div>
             <div class="unit-detail" hidden>
               <section>
                 <h4>Contexte</h4>
-                <p>Réaliser les opérations courantes de messagerie de façon homogène, sûre et tracée, dans le centre d’administration Exchange (Exchange Online). Toute création, délégation ou suppression passe par un ticket GLPI validé par le responsable.</p>
+                <p>Réaliser les opérations courantes de messagerie de façon homogène, sûre et tracée, dans le centre
+                  d’administration Exchange (Exchange Online). Toute création, délégation ou suppression passe par un
+                  ticket GLPI validé par le responsable.</p>
               </section>
               <section>
                 <h4>Réalisation</h4>
                 <ul class="check-list">
-                  <li><strong>Boîte utilisateur :</strong> compte Active Directory existant, licence de messagerie attribuée (la boîte se crée automatiquement), vérification de l’adresse principale et des alias</li>
-                  <li><strong>Boîte partagée :</strong> pour une adresse de service, consultée par plusieurs personnes sans licence dédiée ; membres avec leurs autorisations (accès total, envoyer en tant que, envoyer de la part de)</li>
-                  <li><strong>Groupe de distribution :</strong> nom, adresse, propriétaires et membres ; expéditeurs extérieurs désactivés par défaut</li>
-                  <li><strong>Règle de flux :</strong> condition, action et exceptions, activée d’abord en mode test avant d’être appliquée</li>
-                  <li><strong>Départ d’un collaborateur :</strong> boîte convertie en boîte partagée avec accès au remplaçant, ou réponse automatique indiquant le nouveau contact, puis licence retirée</li>
+                  <li><strong>Boîte utilisateur :</strong> compte Active Directory existant, licence de messagerie
+                    attribuée (la boîte se crée automatiquement), vérification de l’adresse principale et des alias</li>
+                  <li><strong>Boîte partagée :</strong> pour une adresse de service, consultée par plusieurs personnes
+                    sans licence dédiée ; membres avec leurs autorisations (accès total, envoyer en tant que, envoyer de
+                    la part de)</li>
+                  <li><strong>Groupe de distribution :</strong> nom, adresse, propriétaires et membres ; expéditeurs
+                    extérieurs désactivés par défaut</li>
+                  <li><strong>Règle de flux :</strong> condition, action et exceptions, activée d’abord en mode test
+                    avant d’être appliquée</li>
+                  <li><strong>Départ d’un collaborateur :</strong> boîte convertie en boîte partagée avec accès au
+                    remplaçant, ou réponse automatique indiquant le nouveau contact, puis licence retirée</li>
                 </ul>
               </section>
               <section>
                 <h4>Diagnostic de remise</h4>
-                <p>Quand un utilisateur n’a pas reçu un message, ou n’a pas pu en envoyer un, le suivi des messages retrouve son parcours.</p>
+                <p>Quand un utilisateur n’a pas reçu un message, ou n’a pas pu en envoyer un, le suivi des messages
+                  retrouve son parcours.</p>
                 <ul class="check-list">
-                  <li>Requêtes prêtes à l’emploi : messages envoyés, reçus, en attente de remise, en quarantaine et en échec</li>
+                  <li>Requêtes prêtes à l’emploi : messages envoyés, reçus, en attente de remise, en quarantaine et en
+                    échec</li>
                   <li>Recherche précise par expéditeur, destinataire, période, objet ou état de remise</li>
-                  <li>Lecture du résultat : état (par exemple « Remis ») puis détail du message, avec les étapes Reçu, Traité, Remis et les événements de courrier</li>
-                  <li>Si le message n’apparaît pas, vérification de la quarantaine et des règles de flux ; les dates sont en heure UTC, soit 1 ou 2 heures de décalage avec Paris</li>
+                  <li>Lecture du résultat : état (par exemple « Remis ») puis détail du message, avec les étapes Reçu,
+                    Traité, Remis et les événements de courrier</li>
+                  <li>Si le message n’apparaît pas, vérification de la quarantaine et des règles de flux ; les dates
+                    sont en heure UTC, soit 1 ou 2 heures de décalage avec Paris</li>
                   <li>Diagnostic et solution consignés dans le ticket GLPI</li>
                 </ul>
               </section>
               <section>
                 <h4>Vigilance et contrôles</h4>
                 <ul class="check-list">
-                  <li>Une règle mal ciblée peut bloquer ou détourner des messages pour toute l’entreprise : toujours tester, et ne jamais créer de transfert automatique vers l’extérieur sans validation, au risque d’une fuite de données</li>
-                  <li>Test d’envoi et de réception après chaque création, droits vérifiés avec l’utilisateur, opération tracée dans le ticket</li>
+                  <li>Une règle mal ciblée peut bloquer ou détourner des messages pour toute l’entreprise : toujours
+                    tester, et ne jamais créer de transfert automatique vers l’extérieur sans validation, au risque
+                    d’une fuite de données</li>
+                  <li>Test d’envoi et de réception après chaque création, droits vérifiés avec l’utilisateur, opération
+                    tracée dans le ticket</li>
                 </ul>
               </section>
               <!-- À COMPLÉTER (visible dès que tu retires les balises de commentaire) :
@@ -699,7 +912,9 @@
         <div class="section-head section-head-row">
           <div>
             <h2 class="section-title">Projets</h2>
-            <p class="section-intro">Projets menés en formation et sur mon temps personnel, avec un début, un besoin et un livrable. Chaque fiche détaille le contexte, la démarche, les difficultés et les résultats. Mes missions en entreprise sont présentées dans la section <a href="#alternance">Alternance</a>.</p>
+            <p class="section-intro">Projets menés en formation et sur mon temps personnel, avec un début, un besoin et
+              un livrable. Chaque fiche détaille le contexte, la démarche, les difficultés et les résultats. Mes
+              missions en entreprise sont présentées dans la section <a href="#alternance">Alternance</a>.</p>
             <dl class="kpis" id="kpis"></dl>
           </div>
         </div>
@@ -709,21 +924,26 @@
           <!-- =========== FORMATION =========== -->
 
           <!-- Projet phare : 2U -->
-          <article class="unit unit-2u" id="p-intranet" data-context="ecole" data-status="wip" data-comp="1,2,3,4,5,6" data-period="Mars 2026, en cours">
+          <article class="unit unit-2u" id="p-intranet" data-context="ecole" data-status="wip" data-comp="1,2,3,4,5,6"
+            data-period="Mars 2026, en cours">
             <div class="unit-status"><i class="led led-wip"></i><span>En cours</span></div>
             <div class="unit-body">
               <p class="unit-context">Formation <span class="unit-period">Mars 2026, en cours</span></p>
               <h3 class="unit-title">Solution d’hébergement intranet</h3>
-              <p class="unit-desc">Prototype d’hébergement d’applications web en intranet pour une petite entreprise : serveur Debian sécurisé, pile LAMP, zone DNS interne, isolation par pare-feu pfSense, puis supervision, sauvegardes et automatisation. Projet fil rouge sur les deux années du BTS.</p>
+              <p class="unit-desc">Prototype d’hébergement d’applications web en intranet pour une petite entreprise :
+                serveur Debian sécurisé, pile LAMP, zone DNS interne, isolation par pare-feu pfSense, puis supervision,
+                sauvegardes et automatisation. Projet fil rouge sur les deux années du BTS.</p>
               <ol class="steps">
                 <li class="step step-done">
                   <span class="step-name">Cœur fonctionnel</span>
-                  <span class="step-text">Debian 13, LAMP, Bind9 (zone intranet.local), WordPress, Nextcloud, UFW et Fail2ban.</span>
+                  <span class="step-text">Debian 13, LAMP, Bind9 (zone intranet.local), WordPress, Nextcloud, UFW et
+                    Fail2ban.</span>
                   <span class="step-state">Terminée</span>
                 </li>
                 <li class="step step-wip">
                   <span class="step-name">Sécurité</span>
-                  <span class="step-text">pfSense en frontal, DNS Resolver, redirection de ports, bascule de la VM en LAN isolé.</span>
+                  <span class="step-text">pfSense en frontal, DNS Resolver, redirection de ports, bascule de la VM en
+                    LAN isolé.</span>
                   <span class="step-state">En cours</span>
                 </li>
                 <li class="step step-todo">
@@ -737,37 +957,50 @@
                   <span class="step-state">À venir</span>
                 </li>
               </ol>
-              <ul class="tags"><li>Debian 13</li><li>Apache</li><li>MariaDB</li><li>Bind9</li><li>Fail2ban</li><li>pfSense</li></ul>
+              <ul class="tags">
+                <li>Debian 13</li>
+                <li>Apache</li>
+                <li>MariaDB</li>
+                <li>Bind9</li>
+                <li>Fail2ban</li>
+                <li>pfSense</li>
+              </ul>
             </div>
             <div class="unit-links">
               <button type="button" class="btn-sheet" data-open="p-intranet">Voir la fiche projet</button>
-              <a href="docs/SIO-OptionA-SR-Projet-Solution-Hebergement-Intranet.pdf" data-viewer target="_blank" rel="noopener">Cahier des charges <small>PDF, 9 p.</small></a>
-              <a href="docs/guide-virtualbox-tranche1.pdf" data-viewer target="_blank" rel="noopener">Guide de configuration, tranche 1 <small>PDF, 7 p.</small></a>
+              <a href="docs/SIO-OptionA-SR-Projet-Solution-Hebergement-Intranet.pdf" data-viewer target="_blank"
+                rel="noopener">Cahier des charges <small>PDF, 9 p.</small></a>
+              <a href="docs/guide-virtualbox-tranche1.pdf" data-viewer target="_blank" rel="noopener">Guide de
+                configuration, tranche 1 <small>PDF, 7 p.</small></a>
             </div>
             <div class="unit-detail" hidden>
               <section>
                 <h4>Contexte</h4>
-                <p>Mettre en œuvre, pour une petite entreprise, une solution d’hébergement d’applications web en intranet : un prototype viable, conforme à l’état de l’art, couvrant la sécurité, l’hébergement PHP/MariaDB dans un domaine interne dédié, la supervision, les sauvegardes et l’automatisation. Présenté dans son état d’avancement au BTS blanc de mai 2026.</p>
+                <p>Mettre en œuvre, pour une petite entreprise, une solution d’hébergement d’applications web en
+                  intranet : un prototype viable, conforme à l’état de l’art, couvrant la sécurité, l’hébergement
+                  PHP/MariaDB dans un domaine interne dédié, la supervision, les sauvegardes et l’automatisation.
+                  Présenté dans son état d’avancement au BTS blanc de mai 2026.</p>
               </section>
               <section>
                 <h4>Architecture cible</h4>
                 <figure class="mini-arch">
-                  <svg viewBox="0 0 460 210" role="img" aria-label="Architecture : pfSense relie Internet au LAN 172.31.29.0/24 qui contient la VM d’hébergement en .2 et la VM de supervision en .3">
-                    <rect class="ma-box ma-ext" x="10" y="14" width="110" height="40" rx="20"/>
+                  <svg viewBox="0 0 460 210" role="img"
+                    aria-label="Architecture : pfSense relie Internet au LAN 172.31.29.0/24 qui contient la VM d’hébergement en .2 et la VM de supervision en .3">
+                    <rect class="ma-box ma-ext" x="10" y="14" width="110" height="40" rx="20" />
                     <text x="65" y="39" class="ma-t">Internet</text>
-                    <path class="ma-l" d="M120 34 H170"/>
-                    <rect class="ma-box ma-fw" x="170" y="10" width="120" height="48" rx="6"/>
+                    <path class="ma-l" d="M120 34 H170" />
+                    <rect class="ma-box ma-fw" x="170" y="10" width="120" height="48" rx="6" />
                     <text x="230" y="31" class="ma-t">VM pfSense</text>
                     <text x="230" y="47" class="ma-s">WAN NAT, LAN .1</text>
-                    <path class="ma-l" d="M230 58 V96"/>
-                    <path class="ma-bus" d="M40 100 H420"/>
+                    <path class="ma-l" d="M230 58 V96" />
+                    <path class="ma-bus" d="M40 100 H420" />
                     <text x="420" y="92" class="ma-s ma-end">LAN 172.31.29.0/24</text>
-                    <path class="ma-l" d="M120 100 V136"/>
-                    <path class="ma-l ma-dash" d="M340 100 V136"/>
-                    <rect class="ma-box" x="50" y="136" width="140" height="54" rx="6"/>
+                    <path class="ma-l" d="M120 100 V136" />
+                    <path class="ma-l ma-dash" d="M340 100 V136" />
+                    <rect class="ma-box" x="50" y="136" width="140" height="54" rx="6" />
                     <text x="120" y="158" class="ma-t">VM Hébergement</text>
                     <text x="120" y="175" class="ma-s">172.31.29.2, LAMP, DNS</text>
-                    <rect class="ma-box ma-dash" x="270" y="136" width="140" height="54" rx="6"/>
+                    <rect class="ma-box ma-dash" x="270" y="136" width="140" height="54" rx="6" />
                     <text x="340" y="158" class="ma-t">VM Supervision</text>
                     <text x="340" y="175" class="ma-s">172.31.29.3, tranche 3</text>
                   </svg>
@@ -779,8 +1012,10 @@
                   <li>VM Debian 13 en ligne de commande, deux interfaces (NAT et réseau privé hôte en IP fixe)</li>
                   <li>Pile LAMP : Apache2, MariaDB sécurisée manuellement, PHP et modules</li>
                   <li>Bind9 : zone <code>intranet.local</code> vérifiée avec named-checkzone et nslookup</li>
-                  <li>Portail WordPress sur intranet.local et Nextcloud sur cloud.intranet.local, chacun avec son VirtualHost et sa base dédiée</li>
-                  <li>Réduction de la surface d’attaque : SSH limité, UFW sur les seuls ports utiles, Fail2ban sur SSH</li>
+                  <li>Portail WordPress sur intranet.local et Nextcloud sur cloud.intranet.local, chacun avec son
+                    VirtualHost et sa base dédiée</li>
+                  <li>Réduction de la surface d’attaque : SSH limité, UFW sur les seuls ports utiles, Fail2ban sur SSH
+                  </li>
                 </ul>
               </section>
               <section>
@@ -805,27 +1040,36 @@
                 <h4>Difficultés et solutions</h4>
                 <ul class="issue-list">
                   <li>
-                    <span class="issue-pb"><code>mysql_secure_installation</code> peut ne pas poser ses questions sur Debian 13</span>
-                    <span class="issue-fix">Sécurisation de MariaDB faite à la main en SQL : mot de passe root, suppression des comptes anonymes et de la base de test</span>
+                    <span class="issue-pb"><code>mysql_secure_installation</code> peut ne pas poser ses questions sur
+                      Debian 13</span>
+                    <span class="issue-fix">Sécurisation de MariaDB faite à la main en SQL : mot de passe root,
+                      suppression des comptes anonymes et de la base de test</span>
                   </li>
                   <li>
-                    <span class="issue-pb">Le domaine nu <code>intranet.local</code> (sans sous-domaine) ne se résout pas sans enregistrement dédié</span>
-                    <span class="issue-fix">Ajout de l’enregistrement <code>@ IN A</code> dans la zone, vérification avec named-checkzone et nslookup</span>
+                    <span class="issue-pb">Le domaine nu <code>intranet.local</code> (sans sous-domaine) ne se résout
+                      pas sans enregistrement dédié</span>
+                    <span class="issue-fix">Ajout de l’enregistrement <code>@ IN A</code> dans la zone, vérification
+                      avec named-checkzone et nslookup</span>
                   </li>
                   <li>
-                    <span class="issue-pb">Sur Debian 13, le service DNS ne s’active pas sous le nom <code>bind9</code></span>
-                    <span class="issue-fix">Activation par son vrai nom d’unité : <code>systemctl enable named</code></span>
+                    <span class="issue-pb">Sur Debian 13, le service DNS ne s’active pas sous le nom
+                      <code>bind9</code></span>
+                    <span class="issue-fix">Activation par son vrai nom d’unité :
+                      <code>systemctl enable named</code></span>
                   </li>
                   <li>
-                    <span class="issue-pb">Le résolveur local était perdu à chaque redémarrage (DNS fourni par le DHCP du NAT)</span>
-                    <span class="issue-fix">Directive <code>prepend domain-name-servers 127.0.0.1;</code> dans dhclient.conf</span>
+                    <span class="issue-pb">Le résolveur local était perdu à chaque redémarrage (DNS fourni par le DHCP
+                      du NAT)</span>
+                    <span class="issue-fix">Directive <code>prepend domain-name-servers 127.0.0.1;</code> dans
+                      dhclient.conf</span>
                   </li>
                 </ul>
               </section>
               <section>
                 <h4>Résultats</h4>
                 <ul class="check-list">
-                  <li>Tranche 1 validée : LAMP, DNS, WordPress et Nextcloud fonctionnent ensemble dans le domaine intranet.local</li>
+                  <li>Tranche 1 validée : LAMP, DNS, WordPress et Nextcloud fonctionnent ensemble dans le domaine
+                    intranet.local</li>
                   <li>Procédure complète rédigée et reproductible : guide de configuration de 7 pages</li>
                 </ul>
               </section>
@@ -834,12 +1078,15 @@
 
           <!-- Compétences B1 : 3 (site = présence en ligne), 4 (recueil des besoins, cahier des charges,
                PERT, suivi Asana), 5 (service livré et recetté), 6 (comme les autres réalisations). -->
-          <article class="unit" id="p-spaa" data-context="ecole" data-status="done" data-comp="3,4,5,6" data-period="Juillet à septembre 2026">
+          <article class="unit" id="p-spaa" data-context="ecole" data-status="done" data-comp="3,4,5,6"
+            data-period="Juillet à septembre 2026">
             <div class="unit-status"><i class="led led-done"></i><span>Livré</span></div>
             <div class="unit-body">
               <p class="unit-context">Formation <span class="unit-period">Juillet à septembre 2026</span></p>
               <h3 class="unit-title">Site vitrine du refuge SPAA</h3>
-              <p class="unit-desc">Projet mené de bout en bout comme prestataire pour une association de protection animale : recueil des besoins, cahier des charges, planification PERT, maquettage, réalisation d’un site de 8 pages, puis recette formalisée de 59 cas de test.</p>
+              <p class="unit-desc">Projet mené de bout en bout comme prestataire pour une association de protection
+                animale : recueil des besoins, cahier des charges, planification PERT, maquettage, réalisation d’un site
+                de 8 pages, puis recette formalisée de 59 cas de test.</p>
               <ol class="steps">
                 <li class="step step-done">
                   <span class="step-name">Besoins</span>
@@ -867,30 +1114,56 @@
                   <span class="step-state">Terminée</span>
                 </li>
               </ol>
-              <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>PERT</li><li>Asana</li><li>Recette</li></ul>
+              <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PERT</li>
+                <li>Asana</li>
+                <li>Recette</li>
+              </ul>
             </div>
             <div class="unit-links">
               <button type="button" class="btn-sheet" data-open="p-spaa">Voir la fiche projet</button>
-              <a href="docs/dossier-complet-spaa.pdf" data-viewer target="_blank" rel="noopener">Dossier complet du projet <small>PDF, 50 p.</small></a>
+              <a href="docs/dossier-complet-spaa.pdf" data-viewer target="_blank" rel="noopener">Dossier complet du
+                projet <small>PDF, 50 p.</small></a>
             </div>
             <div class="unit-detail" hidden>
               <section>
                 <h4>Contexte</h4>
-                <p>Le refuge SPAA, association loi 1901, n’avait ni site internet, ni logo, ni charte graphique. Le site vitrine devait lui donner de la visibilité, présenter les animaux aux adoptants et diffuser ses actualités et événements. J’ai tenu le rôle de prestataire face au client, représenté par la présidente de l’association.</p>
+                <p>Le refuge SPAA, association loi 1901, n’avait ni site internet, ni logo, ni charte graphique. Le site
+                  vitrine devait lui donner de la visibilité, présenter les animaux aux adoptants et diffuser ses
+                  actualités et événements. J’ai tenu le rôle de prestataire face au client, représenté par la
+                  présidente de l’association.</p>
                 <dl class="spec">
-                  <div><dt>Durée</dt><dd>9 semaines, du 3 juillet au 4 septembre 2026</dd></div>
-                  <div><dt>Budget</dt><dd>0 €, projet associatif reposant sur le bénévolat</dd></div>
-                  <div><dt>Technique</dt><dd>Site statique HTML, CSS et JavaScript, sans framework ni base de données</dd></div>
-                  <div><dt>Suivi</dt><dd>Projet suivi sur Asana</dd></div>
+                  <div>
+                    <dt>Durée</dt>
+                    <dd>9 semaines, du 3 juillet au 4 septembre 2026</dd>
+                  </div>
+                  <div>
+                    <dt>Budget</dt>
+                    <dd>0 €, projet associatif reposant sur le bénévolat</dd>
+                  </div>
+                  <div>
+                    <dt>Technique</dt>
+                    <dd>Site statique HTML, CSS et JavaScript, sans framework ni base de données</dd>
+                  </div>
+                  <div>
+                    <dt>Suivi</dt>
+                    <dd>Projet suivi sur Asana</dd>
+                  </div>
                 </dl>
               </section>
               <section>
                 <h4>Démarche en 5 phases</h4>
                 <ol class="phase-list">
-                  <li>Recueil des besoins : questionnaire envoyé le 3 juillet, réponses de l’association le 10 juillet</li>
-                  <li>Planification : cahier des charges validé et signé le 17 juillet, diagramme de PERT (chemin critique de 9 semaines, une semaine de marge sur les contenus)</li>
+                  <li>Recueil des besoins : questionnaire envoyé le 3 juillet, réponses de l’association le 10 juillet
+                  </li>
+                  <li>Planification : cahier des charges validé et signé le 17 juillet, diagramme de PERT (chemin
+                    critique de 9 semaines, une semaine de marge sur les contenus)</li>
                   <li>Conception : wireframes annotés, avec un zonage commun et un gabarit par page</li>
-                  <li>Réalisation : logo et charte, puis les 8 pages (accueil, association, animaux, actualités, agenda, conseils et FAQ, contact, mentions légales)</li>
+                  <li>Réalisation : logo et charte, puis les 8 pages (accueil, association, animaux, actualités, agenda,
+                    conseils et FAQ, contact, mentions légales)</li>
                   <li>Tests et recette : plan de tests, cahier de recette en deux passages, procès-verbal</li>
                 </ol>
               </section>
@@ -901,31 +1174,38 @@
                   <li>Menu mobile en CSS pur, utilisable même sans JavaScript</li>
                   <li>FAQ en éléments natifs <code>details</code>, accessibles au clavier</li>
                   <li>Repli automatique des photos vers des illustrations SVG locales</li>
-                  <li>Responsive de 375 px au grand écran, accessibilité (focus visible, contrastes, réduction des animations)</li>
+                  <li>Responsive de 375 px au grand écran, accessibilité (focus visible, contrastes, réduction des
+                    animations)</li>
                 </ul>
               </section>
               <section>
                 <h4>Difficultés et solutions</h4>
                 <ul class="issue-list">
                   <li>
-                    <span class="issue-pb">Le client voulait une interface pour que les bénévoles publient eux-mêmes, impossible avec un site statique</span>
-                    <span class="issue-fix">Besoin arbitré avec l’association et reporté en phase 2, par une migration vers WordPress</span>
+                    <span class="issue-pb">Le client voulait une interface pour que les bénévoles publient eux-mêmes,
+                      impossible avec un site statique</span>
+                    <span class="issue-fix">Besoin arbitré avec l’association et reporté en phase 2, par une migration
+                      vers WordPress</span>
                   </li>
                   <li>
                     <span class="issue-pb">Un formulaire de contact sans serveur pour traiter l’envoi</span>
-                    <span class="issue-fix">Envoi par messagerie (mailto), limite assumée et expliquée aux visiteurs ; envoi serveur sécurisé prévu en évolution</span>
+                    <span class="issue-fix">Envoi par messagerie (mailto), limite assumée et expliquée aux visiteurs ;
+                      envoi serveur sécurisé prévu en évolution</span>
                   </li>
                   <li>
                     <span class="issue-pb">Aucune identité visuelle existante</span>
-                    <span class="issue-fix">Création du logo et de la charte ajoutée au planning, sur le chemin critique</span>
+                    <span class="issue-fix">Création du logo et de la charte ajoutée au planning, sur le chemin
+                      critique</span>
                   </li>
                   <li>
                     <span class="issue-pb">Photos hébergées chez un service externe, qui peut être indisponible</span>
-                    <span class="issue-fix">Repli automatique vers des illustrations SVG locales, vérifié en recette images bloquées</span>
+                    <span class="issue-fix">Repli automatique vers des illustrations SVG locales, vérifié en recette
+                      images bloquées</span>
                   </li>
                   <li>
                     <span class="issue-pb">Anomalie bloquante en recette : mentions légales encore incomplètes</span>
-                    <span class="issue-fix">Informations de l’éditeur et de l’hébergeur complétées, cas rejoué avec succès</span>
+                    <span class="issue-fix">Informations de l’éditeur et de l’hébergeur complétées, cas rejoué avec
+                      succès</span>
                   </li>
                 </ul>
               </section>
@@ -940,36 +1220,45 @@
             </div>
           </article>
 
-          <article class="unit" id="p-homelab" data-context="ecole" data-status="wip" data-comp="1,2,4,5,6" data-period="Novembre 2026, en cours">
+          <article class="unit" id="p-homelab" data-context="ecole" data-status="wip" data-comp="1,2,4,5,6"
+            data-period="Novembre 2026, en cours">
             <div class="unit-status"><i class="led led-wip"></i><span>En cours</span></div>
             <div class="unit-body">
               <p class="unit-context">Formation <span class="unit-period">Novembre 2026, en cours</span></p>
               <h3 class="unit-title">Homelab sur la baie Proxmox</h3>
-              <p class="unit-desc">Stockage et applications conteneurisées hébergés sur une machine virtuelle de la baie Proxmox de l’école : administrables à distance de façon sécurisée, supervisés et sauvegardés, avec une restauration testée. Réalisation professionnelle n°1 de l’épreuve E6, qui reproduit en version réduite mon homelab personnel.</p>
+              <p class="unit-desc">Stockage et applications conteneurisées hébergés sur une machine virtuelle de la baie
+                Proxmox de l’école : administrables à distance de façon sécurisée, supervisés et sauvegardés, avec une
+                restauration testée. Réalisation professionnelle n°1 de l’épreuve E6, qui reproduit en version réduite
+                mon homelab personnel.</p>
               <ol class="steps">
                 <li class="step step-done">
                   <span class="step-name">Infrastructure</span>
-                  <span class="step-text">VM OpenMediaVault 8 sur Proxmox VE, réseau en VLAN, disque de données de 64 Go.</span>
+                  <span class="step-text">VM OpenMediaVault 8 sur Proxmox VE, réseau en VLAN, disque de données de 64
+                    Go.</span>
                   <span class="step-state">Terminée</span>
                 </li>
                 <li class="step step-done">
                   <span class="step-name">Services</span>
-                  <span class="step-text">Docker et Portainer, Jellyfin avec partage SMB, supervision Uptime Kuma, tableau de bord Homepage.</span>
+                  <span class="step-text">Docker et Portainer, Jellyfin avec partage SMB, supervision Uptime Kuma,
+                    tableau de bord Homepage.</span>
                   <span class="step-state">Terminée</span>
                 </li>
                 <li class="step step-done">
                   <span class="step-name">Accès distant</span>
-                  <span class="step-text">Tailscale, adresse unique à l’école et à distance, HTTPS avec certificat Let’s Encrypt.</span>
+                  <span class="step-text">Tailscale, adresse unique à l’école et à distance, HTTPS avec certificat Let’s
+                    Encrypt.</span>
                   <span class="step-state">Terminée</span>
                 </li>
                 <li class="step step-wip">
                   <span class="step-name">Sécurité</span>
-                  <span class="step-text">Comptes nominatifs, connexion root désactivée, isolation de la VM ; accès du jury à finaliser.</span>
+                  <span class="step-text">Comptes nominatifs, connexion root désactivée, isolation de la VM ; accès du
+                    jury à finaliser.</span>
                   <span class="step-state">En cours</span>
                 </li>
                 <li class="step step-done">
                   <span class="step-name">Sauvegarde</span>
-                  <span class="step-text">Snapshots par phase, sauvegarde hebdomadaire vzdump, restauration testée.</span>
+                  <span class="step-text">Snapshots par phase, sauvegarde hebdomadaire vzdump, restauration
+                    testée.</span>
                   <span class="step-state">Terminée</span>
                 </li>
                 <li class="step step-todo">
@@ -978,52 +1267,77 @@
                   <span class="step-state">À venir</span>
                 </li>
               </ol>
-              <ul class="tags"><li>Proxmox VE</li><li>OpenMediaVault</li><li>Docker</li><li>Tailscale</li><li>Uptime Kuma</li><li>vzdump</li></ul>
+              <ul class="tags">
+                <li>Proxmox VE</li>
+                <li>OpenMediaVault</li>
+                <li>Docker</li>
+                <li>Tailscale</li>
+                <li>Uptime Kuma</li>
+                <li>vzdump</li>
+              </ul>
             </div>
             <div class="unit-links">
               <button type="button" class="btn-sheet" data-open="p-homelab">Voir la fiche projet</button>
-              <a href="docs/documentation-homelab-proxmox.pdf" data-viewer target="_blank" rel="noopener">Documentation technique <small>PDF, 40 p.</small></a>
+              <a href="docs/documentation-homelab-proxmox.pdf" data-viewer target="_blank" rel="noopener">Documentation
+                technique <small>PDF, 40 p.</small></a>
             </div>
             <div class="unit-detail" hidden>
               <section>
                 <h4>Contexte</h4>
-                <p>Héberger plusieurs services (médiathèque, administration de conteneurs, supervision, tableau de bord) sur une infrastructure partagée dont je ne maîtrise ni le réseau ni l’hyperviseur : une baie Proxmox utilisée par plusieurs élèves, avec un accès limité à ma propre VM. Chaque phase est validée avant la suivante, un snapshot est pris avant toute manipulation sensible, et chaque incident est consigné avec sa cause et sa correction.</p>
+                <p>Héberger plusieurs services (médiathèque, administration de conteneurs, supervision, tableau de bord)
+                  sur une infrastructure partagée dont je ne maîtrise ni le réseau ni l’hyperviseur : une baie Proxmox
+                  utilisée par plusieurs élèves, avec un accès limité à ma propre VM. Chaque phase est validée avant la
+                  suivante, un snapshot est pris avant toute manipulation sensible, et chaque incident est consigné avec
+                  sa cause et sa correction.</p>
                 <dl class="spec">
-                  <div><dt>Hyperviseur</dt><dd>Proxmox VE 9.2, cluster de 3 nœuds</dd></div>
-                  <div><dt>Machine virtuelle</dt><dd>2 vCPU, 6 Go de RAM, disques de 20 Go (système) et 64 Go (données)</dd></div>
-                  <div><dt>Système</dt><dd>Debian 13 et OpenMediaVault 8.3</dd></div>
-                  <div><dt>Services</dt><dd>Portainer, Jellyfin, Uptime Kuma, Homepage</dd></div>
+                  <div>
+                    <dt>Hyperviseur</dt>
+                    <dd>Proxmox VE 9.2, cluster de 3 nœuds</dd>
+                  </div>
+                  <div>
+                    <dt>Machine virtuelle</dt>
+                    <dd>2 vCPU, 6 Go de RAM, disques de 20 Go (système) et 64 Go (données)</dd>
+                  </div>
+                  <div>
+                    <dt>Système</dt>
+                    <dd>Debian 13 et OpenMediaVault 8.3</dd>
+                  </div>
+                  <div>
+                    <dt>Services</dt>
+                    <dd>Portainer, Jellyfin, Uptime Kuma, Homepage</dd>
+                  </div>
                 </dl>
               </section>
               <section>
                 <h4>Architecture</h4>
                 <figure class="mini-arch">
-                  <svg viewBox="0 0 460 236" role="img" aria-label="Architecture : le poste d’administration rejoint la VM OpenMediaVault de la baie Proxmox par un tunnel Tailscale ; la VM héberge Portainer, Jellyfin, Uptime Kuma et Homepage, est sauvegardée sur le stockage qnap et envoie ses alertes vers Discord">
-                    <rect class="ma-box ma-dash" x="160" y="14" width="290" height="208" rx="8"/>
+                  <svg viewBox="0 0 460 236" role="img"
+                    aria-label="Architecture : le poste d’administration rejoint la VM OpenMediaVault de la baie Proxmox par un tunnel Tailscale ; la VM héberge Portainer, Jellyfin, Uptime Kuma et Homepage, est sauvegardée sur le stockage qnap et envoie ses alertes vers Discord">
+                    <rect class="ma-box ma-dash" x="160" y="14" width="290" height="208" rx="8" />
                     <text x="305" y="34" class="ma-s">Baie Proxmox de l’école, VLAN 11</text>
-                    <rect class="ma-box" x="8" y="92" width="100" height="46" rx="6"/>
+                    <rect class="ma-box" x="8" y="92" width="100" height="46" rx="6" />
                     <text x="58" y="112" class="ma-t">Poste admin</text>
                     <text x="58" y="128" class="ma-s">Tailscale</text>
-                    <path class="ma-l" d="M108 115 H176"/>
+                    <path class="ma-l" d="M108 115 H176" />
                     <text x="134" y="107" class="ma-s">tunnel</text>
-                    <rect class="ma-box ma-fw" x="176" y="46" width="262" height="108" rx="6"/>
+                    <rect class="ma-box ma-fw" x="176" y="46" width="262" height="108" rx="6" />
                     <text x="307" y="68" class="ma-t">VM OpenMediaVault</text>
                     <text x="307" y="84" class="ma-s">Debian 13, Docker</text>
-                    <rect class="ma-box" x="184" y="100" width="58" height="40" rx="5"/>
+                    <rect class="ma-box" x="184" y="100" width="58" height="40" rx="5" />
                     <text x="213" y="124" class="ma-s">Portainer</text>
-                    <rect class="ma-box" x="248" y="100" width="58" height="40" rx="5"/>
+                    <rect class="ma-box" x="248" y="100" width="58" height="40" rx="5" />
                     <text x="277" y="124" class="ma-s">Jellyfin</text>
-                    <rect class="ma-box" x="312" y="100" width="58" height="40" rx="5"/>
+                    <rect class="ma-box" x="312" y="100" width="58" height="40" rx="5" />
                     <text x="341" y="120" class="ma-s">Uptime</text>
                     <text x="341" y="132" class="ma-s">Kuma</text>
-                    <rect class="ma-box" x="376" y="100" width="58" height="40" rx="5"/>
+                    <rect class="ma-box" x="376" y="100" width="58" height="40" rx="5" />
                     <text x="405" y="124" class="ma-s">Homepage</text>
-                    <path class="ma-l" d="M307 154 V176"/>
-                    <rect class="ma-box" x="236" y="176" width="142" height="38" rx="6"/>
+                    <path class="ma-l" d="M307 154 V176" />
+                    <rect class="ma-box" x="236" y="176" width="142" height="38" rx="6" />
                     <text x="307" y="193" class="ma-t">Stockage qnap</text>
                     <text x="307" y="207" class="ma-s">sauvegarde hebdomadaire</text>
-                    <path class="ma-l ma-dash" d="M176 142 H146 V196 H120"/>
-                    <rect class="ma-box ma-dash" x="8" y="176" width="112" height="38" rx="6"/>
+                    <path class="ma-l ma-dash" d="M176 142 H146 V196 H120" />
+                    <rect class="ma-box ma-dash" x="8" y="176" width="112" height="38" rx="6" />
                     <text x="64" y="193" class="ma-t">Discord</text>
                     <text x="64" y="207" class="ma-s">alertes par service</text>
                   </svg>
@@ -1032,68 +1346,90 @@
               <section>
                 <h4>Choix techniques</h4>
                 <ul class="check-list">
-                  <li>OpenMediaVault plutôt que TrueNAS : léger, interface web et plugin Compose, alors que TrueNAS repose sur ZFS, plus gourmand en mémoire</li>
-                  <li>Docker Compose avec Portainer plutôt que Kubernetes, disproportionné pour une VM : isolation, reproductibilité et mises à jour simples</li>
-                  <li>Tailscale (WireGuard) plutôt qu’un VPN auto-hébergé : aucun port à ouvrir sur le réseau de l’école, règles d’accès et certificats HTTPS inclus</li>
-                  <li>Uptime Kuma plutôt que Zabbix : des sondes simples et des alertes en quelques minutes, sans serveur de base de données ni agents</li>
+                  <li>OpenMediaVault plutôt que TrueNAS : léger, interface web et plugin Compose, alors que TrueNAS
+                    repose sur ZFS, plus gourmand en mémoire</li>
+                  <li>Docker Compose avec Portainer plutôt que Kubernetes, disproportionné pour une VM : isolation,
+                    reproductibilité et mises à jour simples</li>
+                  <li>Tailscale (WireGuard) plutôt qu’un VPN auto-hébergé : aucun port à ouvrir sur le réseau de
+                    l’école, règles d’accès et certificats HTTPS inclus</li>
+                  <li>Uptime Kuma plutôt que Zabbix : des sondes simples et des alertes en quelques minutes, sans
+                    serveur de base de données ni agents</li>
                   <li>Sauvegarde vzdump plutôt que Proxmox Backup Server, qui demande un serveur dédié</li>
                 </ul>
               </section>
               <section>
                 <h4>Accès distant et HTTPS</h4>
                 <ul class="check-list">
-                  <li>Tailscale installé directement sur la VM : le VLAN de l’école n’étant pas joignable depuis mon poste, c’est la solution retenue</li>
-                  <li>Route réduite à l’adresse de la VM, annoncée dans le tailnet : la même adresse fonctionne à l’école et à distance</li>
-                  <li>Interfaces d’OpenMediaVault et de Jellyfin en HTTPS par Tailscale Serve, avec un certificat Let’s Encrypt renouvelé automatiquement</li>
+                  <li>Tailscale installé directement sur la VM : le VLAN de l’école n’étant pas joignable depuis mon
+                    poste, c’est la solution retenue</li>
+                  <li>Route réduite à l’adresse de la VM, annoncée dans le tailnet : la même adresse fonctionne à
+                    l’école et à distance</li>
+                  <li>Interfaces d’OpenMediaVault et de Jellyfin en HTTPS par Tailscale Serve, avec un certificat Let’s
+                    Encrypt renouvelé automatiquement</li>
                 </ul>
               </section>
               <section>
                 <h4>Supervision</h4>
                 <ul class="check-list">
-                  <li>Uptime Kuma surveille trois services, avec une alerte après trois échecs consécutifs pour éviter les fausses alertes</li>
+                  <li>Uptime Kuma surveille trois services, avec une alerte après trois échecs consécutifs pour éviter
+                    les fausses alertes</li>
                   <li>Alertes Discord : un salon et un webhook par service</li>
-                  <li>Pannes provoquées pour valider : arrêt de Jellyfin signalé « Down » puis « Up » à 20 secondes d’intervalle</li>
+                  <li>Pannes provoquées pour valider : arrêt de Jellyfin signalé « Down » puis « Up » à 20 secondes
+                    d’intervalle</li>
                 </ul>
               </section>
               <section>
                 <h4>Sécurité</h4>
                 <ul class="check-list">
                   <li>Compte nominatif avec sudo, journalisé : on sait qui a lancé quelle commande</li>
-                  <li>Connexion SSH en root désactivée, vérifiée par la configuration chargée et par un refus de connexion</li>
-                  <li>Isolation de la VM dans le réseau privé par une étiquette Tailscale : la connexion vers mon NAS personnel est ouverte avant, bloquée après</li>
+                  <li>Connexion SSH en root désactivée, vérifiée par la configuration chargée et par un refus de
+                    connexion</li>
+                  <li>Isolation de la VM dans le réseau privé par une étiquette Tailscale : la connexion vers mon NAS
+                    personnel est ouverte avant, bloquée après</li>
                   <li>Compte de consultation pour le jury, sans sudo ni accès à Docker</li>
                 </ul>
               </section>
               <section>
                 <h4>Sauvegarde et restauration</h4>
                 <ul class="check-list">
-                  <li>Un snapshot Proxmox à la fin de chaque phase validée, pour revenir en arrière après une manipulation ratée</li>
-                  <li>Sauvegarde vzdump hebdomadaire vers le stockage qnap, séparé de la VM : 7 min 43 s, archive de 4,59 Go</li>
-                  <li>Restauration testée vers une VM de test, sans toucher à la VM en service : 7 min 20 s, mêmes disques et même configuration, nouvelle adresse MAC</li>
-                  <li>Objectifs de reprise documentés : perte de données jusqu’à 7 jours, restauration mesurée à 7 min 20 s</li>
+                  <li>Un snapshot Proxmox à la fin de chaque phase validée, pour revenir en arrière après une
+                    manipulation ratée</li>
+                  <li>Sauvegarde vzdump hebdomadaire vers le stockage qnap, séparé de la VM : 7 min 43 s, archive de
+                    4,59 Go</li>
+                  <li>Restauration testée vers une VM de test, sans toucher à la VM en service : 7 min 20 s, mêmes
+                    disques et même configuration, nouvelle adresse MAC</li>
+                  <li>Objectifs de reprise documentés : perte de données jusqu’à 7 jours, restauration mesurée à 7 min
+                    20 s</li>
                 </ul>
               </section>
               <section>
                 <h4>Difficultés et solutions</h4>
                 <ul class="issue-list">
                   <li>
-                    <span class="issue-pb">La VM était injoignable depuis mon poste : un partage Tailscale ne donne pas accès aux sous-réseaux</span>
-                    <span class="issue-fix">Tailscale installé sur la VM, avec une route réduite à sa seule adresse</span>
+                    <span class="issue-pb">La VM était injoignable depuis mon poste : un partage Tailscale ne donne pas
+                      accès aux sous-réseaux</span>
+                    <span class="issue-fix">Tailscale installé sur la VM, avec une route réduite à sa seule
+                      adresse</span>
                   </li>
                   <li>
-                    <span class="issue-pb">Proxmox affichait 91 % de mémoire utilisée alors que 4,7 Go étaient disponibles</span>
-                    <span class="issue-fix">Il s’agissait du cache disque, que Linux libère à la demande ; agent QEMU installé pour remonter la mémoire réelle</span>
+                    <span class="issue-pb">Proxmox affichait 91 % de mémoire utilisée alors que 4,7 Go étaient
+                      disponibles</span>
+                    <span class="issue-fix">Il s’agissait du cache disque, que Linux libère à la demande ; agent QEMU
+                      installé pour remonter la mémoire réelle</span>
                   </li>
                   <li>
                     <span class="issue-pb">La VM, appareil personnel du réseau privé, pouvait atteindre mon NAS</span>
-                    <span class="issue-fix">Étiquette dédiée, posée après sauvegarde de la politique d’accès, ajout de tests et prévisualisation des changements avant enregistrement</span>
+                    <span class="issue-fix">Étiquette dédiée, posée après sauvegarde de la politique d’accès, ajout de
+                      tests et prévisualisation des changements avant enregistrement</span>
                   </li>
                   <li>
                     <span class="issue-pb">Lecture Jellyfin en erreur</span>
-                    <span class="issue-fix">Fichiers de 0 octet, téléchargés alors que curl n’était pas installé : suppression puis nouveau téléchargement avec une option qui échoue sur erreur HTTP</span>
+                    <span class="issue-fix">Fichiers de 0 octet, téléchargés alors que curl n’était pas installé :
+                      suppression puis nouveau téléchargement avec une option qui échoue sur erreur HTTP</span>
                   </li>
                   <li>
-                    <span class="issue-pb">Le formulaire de sauvegarde proposait par défaut le stockage local, ce qui annulait l’intérêt de la copie</span>
+                    <span class="issue-pb">Le formulaire de sauvegarde proposait par défaut le stockage local, ce qui
+                      annulait l’intérêt de la copie</span>
                     <span class="issue-fix">Stockage qnap choisi, séparé du disque de la VM</span>
                   </li>
                 </ul>
@@ -1101,8 +1437,10 @@
               <section>
                 <h4>Résultats</h4>
                 <ul class="check-list">
-                  <li>11 tests de validation réussis sur 12 : redémarrage, pannes provoquées, SSH, certificat, isolation, sauvegarde et restauration</li>
-                  <li>Le douzième, le démarrage de la VM restaurée, n’est pas testé volontairement, pour ne pas dupliquer l’adresse et l’identité Tailscale de la VM réelle</li>
+                  <li>11 tests de validation réussis sur 12 : redémarrage, pannes provoquées, SSH, certificat,
+                    isolation, sauvegarde et restauration</li>
+                  <li>Le douzième, le démarrage de la VM restaurée, n’est pas testé volontairement, pour ne pas
+                    dupliquer l’adresse et l’identité Tailscale de la VM réelle</li>
                   <li>Scénario de démonstration de 10 minutes préparé pour l’épreuve</li>
                 </ul>
               </section>
@@ -1110,7 +1448,8 @@
                 <h4>Limites assumées</h4>
                 <ul class="check-list check-list-wip">
                   <li>Uptime Kuma tourne sur la VM qu’il surveille : si la VM tombe, rien n’est signalé</li>
-                  <li>Le stockage de sauvegarde est celui de l’école : la copie n’est pas hors site et ne garde qu’une seule archive</li>
+                  <li>Le stockage de sauvegarde est celui de l’école : la copie n’est pas hors site et ne garde qu’une
+                    seule archive</li>
                   <li>La supervision mesure la disponibilité des services, pas l’espace disque ni la mémoire</li>
                 </ul>
               </section>
@@ -1127,45 +1466,63 @@
 
           <!-- =========== PERSONNEL (hors tableau E5) =========== -->
 
-          <article class="unit" id="p-bookaru" data-context="perso" data-status="done" data-comp="3,4,5" data-period="Été 2026">
+          <article class="unit" id="p-bookaru" data-context="perso" data-status="done" data-comp="3,4,5"
+            data-period="Été 2026">
             <div class="unit-status"><i class="led led-done"></i><span>En ligne</span></div>
             <div class="unit-body">
               <p class="unit-context">Personnel <span class="unit-period">Été 2026</span></p>
               <h3 class="unit-title">Déploiement de l’application Bookaru</h3>
-              <p class="unit-desc">Du dépôt GitHub au NAS, puis à Internet en HTTPS, avec mises à jour automatiques : Bookaru, une application web de suivi de lecture que j’ai développée, hébergée sur mon serveur et exposée sans ouvrir le moindre port sur la box.</p>
+              <p class="unit-desc">Du dépôt GitHub au NAS, puis à Internet en HTTPS, avec mises à jour automatiques :
+                Bookaru, une application web de suivi de lecture que j’ai développée, hébergée sur mon serveur et
+                exposée sans ouvrir le moindre port sur la box.</p>
               <ol class="steps">
                 <li class="step step-done">
                   <span class="step-name">Déposer sur le NAS</span>
-                  <span class="step-text">Clone git du dépôt GitHub servi par un conteneur Caddy, géré avec Portainer.</span>
+                  <span class="step-text">Clone git du dépôt GitHub servi par un conteneur Caddy, géré avec
+                    Portainer.</span>
                   <span class="step-state">Terminée</span>
                 </li>
                 <li class="step step-done">
                   <span class="step-name">Mettre sur Internet</span>
-                  <span class="step-text">Nom de domaine et Cloudflare Tunnel : HTTPS public, connexion sortante, aucun port ouvert.</span>
+                  <span class="step-text">Nom de domaine et Cloudflare Tunnel : HTTPS public, connexion sortante, aucun
+                    port ouvert.</span>
                   <span class="step-state">Terminée</span>
                 </li>
                 <li class="step step-done">
                   <span class="step-name">Durcir l’accès</span>
-                  <span class="step-text">Réseau Docker interne, publication du port retirée : l’application ne passe plus que par le tunnel.</span>
+                  <span class="step-text">Réseau Docker interne, publication du port retirée : l’application ne passe
+                    plus que par le tunnel.</span>
                   <span class="step-state">Terminée</span>
                 </li>
                 <li class="step step-done">
                   <span class="step-name">Mettre à jour</span>
-                  <span class="step-text">D’abord manuellement, puis automatiquement : le NAS vérifie GitHub toutes les 3 minutes.</span>
+                  <span class="step-text">D’abord manuellement, puis automatiquement : le NAS vérifie GitHub toutes les
+                    3 minutes.</span>
                   <span class="step-state">Terminée</span>
                 </li>
               </ol>
-              <ul class="tags"><li>Cloudflare Tunnel</li><li>Caddy</li><li>Docker</li><li>Portainer</li><li>Git</li><li>DNS</li></ul>
+              <ul class="tags">
+                <li>Cloudflare Tunnel</li>
+                <li>Caddy</li>
+                <li>Docker</li>
+                <li>Portainer</li>
+                <li>Git</li>
+                <li>DNS</li>
+              </ul>
             </div>
             <div class="unit-links">
               <button type="button" class="btn-sheet" data-open="p-bookaru">Voir la fiche projet</button>
-              <a href="docs/deploiement-bookaru.pdf" data-viewer target="_blank" rel="noopener">Documentation de déploiement <small>PDF, 11 p.</small></a>
-              <a href="https://bookaru.app" target="_blank" rel="noopener">Ouvrir l’application <small>bookaru.app</small></a>
+              <a href="docs/deploiement-bookaru.pdf" data-viewer target="_blank" rel="noopener">Documentation de
+                déploiement <small>PDF, 11 p.</small></a>
+              <a href="https://bookaru.app" target="_blank" rel="noopener">Ouvrir l’application
+                <small>bookaru.app</small></a>
             </div>
             <div class="unit-detail" hidden>
               <section>
                 <h4>Contexte</h4>
-                <p>Bookaru est une application web de suivi de lecture (PWA), développée par mes soins et conservée sur GitHub, qui n’était accessible que par GitHub Pages. L’objectif : la déposer sur mon NAS puis la mettre en ligne, avec trois exigences.</p>
+                <p>Bookaru est une application web de suivi de lecture (PWA), développée par mes soins et conservée sur
+                  GitHub, qui n’était accessible que par GitHub Pages. L’objectif : la déposer sur mon NAS puis la
+                  mettre en ligne, avec trois exigences.</p>
                 <ul class="check-list">
                   <li>L’héberger moi-même, en gardant GitHub comme source de vérité du code</li>
                   <li>La rendre accessible publiquement en HTTPS, sans ouvrir aucun port sur la box</li>
@@ -1175,61 +1532,70 @@
               <section>
                 <h4>Architecture</h4>
                 <figure class="mini-arch">
-                  <svg viewBox="0 0 460 212" role="img" aria-label="Deux chemins : une modification du code va de VS Code à GitHub puis au NAS, qui la récupère toutes les 3 minutes pour que Caddy la serve ; un visiteur passe par Cloudflare puis par le connecteur cloudflared jusqu’à Caddy, sans aucun port ouvert sur la box">
+                  <svg viewBox="0 0 460 212" role="img"
+                    aria-label="Deux chemins : une modification du code va de VS Code à GitHub puis au NAS, qui la récupère toutes les 3 minutes pour que Caddy la serve ; un visiteur passe par Cloudflare puis par le connecteur cloudflared jusqu’à Caddy, sans aucun port ouvert sur la box">
                     <text x="8" y="16" class="ma-s ma-start">Mise à jour du code</text>
-                    <rect class="ma-box" x="8" y="24" width="96" height="44" rx="6"/>
+                    <rect class="ma-box" x="8" y="24" width="96" height="44" rx="6" />
                     <text x="56" y="43" class="ma-t">VS Code</text>
                     <text x="56" y="58" class="ma-s">commit, push</text>
-                    <path class="ma-l" d="M104 46 H124"/>
-                    <rect class="ma-box" x="124" y="24" width="96" height="44" rx="6"/>
+                    <path class="ma-l" d="M104 46 H124" />
+                    <rect class="ma-box" x="124" y="24" width="96" height="44" rx="6" />
                     <text x="172" y="43" class="ma-t">GitHub</text>
                     <text x="172" y="58" class="ma-s">source de vérité</text>
-                    <path class="ma-l" d="M220 46 H240"/>
-                    <rect class="ma-box" x="240" y="24" width="96" height="44" rx="6"/>
+                    <path class="ma-l" d="M220 46 H240" />
+                    <rect class="ma-box" x="240" y="24" width="96" height="44" rx="6" />
                     <text x="288" y="43" class="ma-t">NAS</text>
                     <text x="288" y="58" class="ma-s">git pull, 3 min</text>
-                    <path class="ma-l" d="M336 46 H356"/>
-                    <rect class="ma-box ma-fw" x="356" y="24" width="96" height="44" rx="6"/>
+                    <path class="ma-l" d="M336 46 H356" />
+                    <rect class="ma-box ma-fw" x="356" y="24" width="96" height="44" rx="6" />
                     <text x="404" y="43" class="ma-t">Caddy</text>
                     <text x="404" y="58" class="ma-s">sert le clone</text>
                     <text x="8" y="116" class="ma-s ma-start">Accès public</text>
-                    <rect class="ma-box" x="8" y="124" width="96" height="44" rx="6"/>
+                    <rect class="ma-box" x="8" y="124" width="96" height="44" rx="6" />
                     <text x="56" y="143" class="ma-t">Visiteur</text>
                     <text x="56" y="158" class="ma-s">https</text>
-                    <path class="ma-l" d="M104 146 H124"/>
-                    <rect class="ma-box" x="124" y="124" width="96" height="44" rx="6"/>
+                    <path class="ma-l" d="M104 146 H124" />
+                    <rect class="ma-box" x="124" y="124" width="96" height="44" rx="6" />
                     <text x="172" y="143" class="ma-t">Cloudflare</text>
                     <text x="172" y="158" class="ma-s">HTTPS, certificat</text>
-                    <path class="ma-l" d="M220 146 H240"/>
-                    <rect class="ma-box" x="240" y="124" width="96" height="44" rx="6"/>
+                    <path class="ma-l" d="M220 146 H240" />
+                    <rect class="ma-box" x="240" y="124" width="96" height="44" rx="6" />
                     <text x="288" y="143" class="ma-t">cloudflared</text>
                     <text x="288" y="158" class="ma-s">tunnel sortant</text>
-                    <path class="ma-l ma-dash" d="M336 146 H404 V68"/>
-                    <text x="230" y="198" class="ma-s">Aucun port ouvert sur la box : le tunnel est une connexion sortante</text>
+                    <path class="ma-l ma-dash" d="M336 146 H404 V68" />
+                    <text x="230" y="198" class="ma-s">Aucun port ouvert sur la box : le tunnel est une connexion
+                      sortante</text>
                   </svg>
                 </figure>
               </section>
               <section>
                 <h4>Réalisation</h4>
                 <ul class="check-list">
-                  <li>Clone git du dépôt sur le NAS, servi par un conteneur Caddy : je ne copie jamais de fichiers à la main sur le serveur</li>
-                  <li>Configuration de Caddy : compression, accès au dossier de l’historique git bloqué, renvoi vers la page d’accueil pour le bon fonctionnement de la PWA</li>
+                  <li>Clone git du dépôt sur le NAS, servi par un conteneur Caddy : je ne copie jamais de fichiers à la
+                    main sur le serveur</li>
+                  <li>Configuration de Caddy : compression, accès au dossier de l’historique git bloqué, renvoi vers la
+                    page d’accueil pour le bon fonctionnement de la PWA</li>
                   <li>Conteneurs gérés par des stacks Portainer, volumes montés en lecture seule</li>
-                  <li>Nom de domaine enregistré chez Cloudflare, publié par un Cloudflare Tunnel : connexion sortante, HTTPS géré par Cloudflare</li>
+                  <li>Nom de domaine enregistré chez Cloudflare, publié par un Cloudflare Tunnel : connexion sortante,
+                    HTTPS géré par Cloudflare</li>
                   <li>Jeton du tunnel fourni par une variable d’environnement, jamais écrit dans un fichier</li>
                   <li>Durcissement : réseau Docker interne entre le tunnel et Caddy, port de l’hôte retiré</li>
-                  <li>Mise à jour automatique par une tâche planifiée toutes les 3 minutes, avec notification Discord uniquement en cas de mise à jour ou d’échec</li>
-                  <li>Numéro de version du service worker incrémenté à chaque modification visible, pour forcer la mise à jour des appareils</li>
+                  <li>Mise à jour automatique par une tâche planifiée toutes les 3 minutes, avec notification Discord
+                    uniquement en cas de mise à jour ou d’échec</li>
+                  <li>Numéro de version du service worker incrémenté à chaque modification visible, pour forcer la mise
+                    à jour des appareils</li>
                 </ul>
               </section>
               <section>
                 <h4>Sécurité du déploiement</h4>
                 <ul class="check-list">
                   <li>Aucun port ouvert sur la box : l’adresse IP du domicile reste invisible</li>
-                  <li>Rien d’autre que Bookaru n’est exposé : les autres services du NAS ne passent pas par le tunnel</li>
+                  <li>Rien d’autre que Bookaru n’est exposé : les autres services du NAS ne passent pas par le tunnel
+                  </li>
                   <li>Après durcissement, plus aucun accès en HTTP clair sur le réseau local</li>
                   <li>Historique du code non exposé (réponse 404) et conteneur sans droit d’écriture</li>
-                  <li>Choix d’une tâche planifiée plutôt que d’un webhook GitHub, qui aurait exigé un point d’entrée public supplémentaire à sécuriser</li>
+                  <li>Choix d’une tâche planifiée plutôt que d’un webhook GitHub, qui aurait exigé un point d’entrée
+                    public supplémentaire à sécuriser</li>
                 </ul>
               </section>
               <section>
@@ -1237,15 +1603,18 @@
                 <ul class="issue-list">
                   <li>
                     <span class="issue-pb">Un appareil continuait d’afficher l’ancienne version de l’application</span>
-                    <span class="issue-fix">Le service worker garde l’application en cache : version incrémentée à chaque modification visible, jamais réutilisée</span>
+                    <span class="issue-fix">Le service worker garde l’application en cache : version incrémentée à
+                      chaque modification visible, jamais réutilisée</span>
                   </li>
                   <li>
                     <span class="issue-pb">PWA non installable et pas de mode hors ligne en HTTP</span>
-                    <span class="issue-fix">Le service worker exige un contexte sécurisé : HTTPS public via le tunnel</span>
+                    <span class="issue-fix">Le service worker exige un contexte sécurisé : HTTPS public via le
+                      tunnel</span>
                   </li>
                   <li>
                     <span class="issue-pb">Erreur « Invalid service URL format » à la création de la route</span>
-                    <span class="issue-fix">Protocole absent ou HTTPS saisi, alors que Caddy sert en HTTP à l’intérieur du NAS : utiliser HTTP pour ce tronçon interne</span>
+                    <span class="issue-fix">Protocole absent ou HTTPS saisi, alors que Caddy sert en HTTP à l’intérieur
+                      du NAS : utiliser HTTP pour ce tronçon interne</span>
                   </li>
                   <li>
                     <span class="issue-pb">Jeton du tunnel affiché en clair lors d’un échange</span>
@@ -1260,15 +1629,18 @@
               <section>
                 <h4>Résultats</h4>
                 <ul class="check-list">
-                  <li>Application accessible en HTTPS depuis n’importe où, y compris en 4G, et installable comme application web</li>
-                  <li>Test contrasté réussi : le domaine public répond, l’ancienne adresse du NAS sur le réseau local est injoignable</li>
+                  <li>Application accessible en HTTPS depuis n’importe où, y compris en 4G, et installable comme
+                    application web</li>
+                  <li>Test contrasté réussi : le domaine public répond, l’ancienne adresse du NAS sur le réseau local
+                    est injoignable</li>
                   <li>Chaque modification poussée sur GitHub est en ligne en moins de 3 minutes, sans intervention</li>
                 </ul>
               </section>
               <section>
                 <h4>Suite du projet</h4>
                 <ul class="check-list check-list-todo">
-                  <li>Synchronisation multi-appareils : comptes utilisateurs et serveur à développer, un chantier à part entière</li>
+                  <li>Synchronisation multi-appareils : comptes utilisateurs et serveur à développer, un chantier à part
+                    entière</li>
                   <li>Aide à l’installation sur iPhone, où Safari ne propose pas l’invite automatique</li>
                   <li>Webhook GitHub pour un déploiement instantané, au prix d’un point d’entrée à sécuriser</li>
                 </ul>
@@ -1320,25 +1692,60 @@
       <div class="wrap">
         <div class="section-head">
           <h2 class="section-title">Compétences</h2>
-          <p class="section-intro">Les outils et technologies que j’utilise, puis la couverture du bloc 1 du référentiel par mes réalisations.</p>
+          <p class="section-intro">Les outils et technologies que j’utilise, puis la couverture du bloc 1 du référentiel
+            par mes réalisations.</p>
         </div>
 
         <div class="skills">
           <div class="skill-group" style="--cable: var(--c-blue)">
             <h3>Réseaux</h3>
-            <ul><li>TCP/IP</li><li>Modèle OSI</li><li>CIDR</li><li>VLAN</li><li>DNS, Bind9</li><li>DHCP</li><li>Pare-feu, pfSense, NAT</li><li>VPN Tailscale</li><li>Cloudflare Tunnel</li><li>Packet Tracer</li></ul>
+            <ul>
+              <li>TCP/IP</li>
+              <li>Modèle OSI</li>
+              <li>CIDR</li>
+              <li>VLAN</li>
+              <li>DNS, Bind9</li>
+              <li>DHCP</li>
+              <li>Pare-feu, pfSense, NAT</li>
+              <li>VPN Tailscale</li>
+              <li>Cloudflare Tunnel</li>
+              <li>Packet Tracer</li>
+            </ul>
           </div>
           <div class="skill-group" style="--cable: var(--c-purple)">
             <h3>Systèmes</h3>
-            <ul><li>Windows Server</li><li>Active Directory</li><li>Exchange</li><li>Windows 10/11</li><li>Debian</li><li>OpenMediaVault</li><li>SSH sécurisé, Fail2ban</li></ul>
+            <ul>
+              <li>Windows Server</li>
+              <li>Active Directory</li>
+              <li>Exchange</li>
+              <li>Windows 10/11</li>
+              <li>Debian</li>
+              <li>OpenMediaVault</li>
+              <li>SSH sécurisé, Fail2ban</li>
+            </ul>
           </div>
           <div class="skill-group" style="--cable: var(--c-green)">
             <h3>Virtualisation et services</h3>
-            <ul><li>Proxmox VE</li><li>VirtualBox</li><li>VMware Workstation</li><li>Docker, Portainer</li><li>Caddy, LAMP</li><li>Uptime Kuma</li><li>Sauvegarde (vzdump), restauration</li></ul>
+            <ul>
+              <li>Proxmox VE</li>
+              <li>VirtualBox</li>
+              <li>VMware Workstation</li>
+              <li>Docker, Portainer</li>
+              <li>Caddy, LAMP</li>
+              <li>Uptime Kuma</li>
+              <li>Sauvegarde (vzdump), restauration</li>
+            </ul>
           </div>
           <div class="skill-group" style="--cable: var(--c-orange)">
             <h3>Support et outils</h3>
-            <ul><li>Assistance utilisateurs</li><li>GLPI</li><li>Lansweeper</li><li>WDS</li><li>Gestion de parc</li><li>Déploiement de postes</li></ul>
+            <ul>
+              <li>Assistance utilisateurs</li>
+              <li>GLPI</li>
+              <li>Lansweeper</li>
+              <li>WDS</li>
+              <li>Gestion de parc</li>
+              <li>Déploiement de postes</li>
+            </ul>
           </div>
         </div>
 
@@ -1381,20 +1788,23 @@
       <div class="wrap veille-grid">
         <div class="section-head">
           <h2 class="section-title">Veille</h2>
-          <p class="section-intro">Les sources que je suis pour rester à jour sur l’administration système, le réseau et la cybersécurité.</p>
+          <p class="section-intro">Les sources que je suis pour rester à jour sur l’administration système, le réseau et
+            la cybersécurité.</p>
         </div>
         <ul class="sources">
           <li>
             <a class="source" href="https://www.it-connect.fr/" target="_blank" rel="noopener">
               <span class="source-name">IT-Connect</span>
-              <span class="source-desc">Actualités IT et tutoriels en administration système, réseau et cybersécurité.</span>
+              <span class="source-desc">Actualités IT et tutoriels en administration système, réseau et
+                cybersécurité.</span>
               <span class="source-kind">Tutoriels</span>
             </a>
           </li>
           <li>
             <a class="source" href="https://www.lemagit.fr/" target="_blank" rel="noopener">
               <span class="source-name">LeMagIT</span>
-              <span class="source-desc">Média spécialisé : analyses et conseils pour les professionnels de l’informatique.</span>
+              <span class="source-desc">Média spécialisé : analyses et conseils pour les professionnels de
+                l’informatique.</span>
               <span class="source-kind">Analyse</span>
             </a>
           </li>
@@ -1416,7 +1826,8 @@
       <div class="wrap">
         <div class="section-head">
           <h2 class="section-title">Documentation</h2>
-          <p class="section-intro">Procédures de mes missions, documentation de mes projets et documents d’épreuve, à consulter dans la page ou à télécharger.</p>
+          <p class="section-intro">Procédures de mes missions, documentation de mes projets et documents d’épreuve, à
+            consulter dans la page ou à télécharger.</p>
         </div>
 
         <div class="share">
@@ -1425,10 +1836,13 @@
             <span class="share-count" id="docCount"></span>
           </div>
           <ul class="doc-grid" id="files">
-            <li class="doc-group"><h3>Missions en entreprise</h3></li>
+            <li class="doc-group">
+              <h3>Missions en entreprise</h3>
+            </li>
             <li>
               <a class="file" href="docs/doc-glpi-demandes-incidents.pdf" data-viewer target="_blank" rel="noopener">
-                <span class="file-thumb"><img src="docs/apercus/doc-glpi-demandes-incidents.webp" alt="" width="480" height="340" loading="lazy" decoding="async"></span>
+                <span class="file-thumb"><img src="docs/apercus/doc-glpi-demandes-incidents.webp" alt="" width="480"
+                    height="340" loading="lazy" decoding="async"></span>
                 <span class="file-info">
                   <span class="file-type ft-pdf">PDF</span>
                   <span class="file-name">Gestion des demandes et incidents (GLPI)</span>
@@ -1439,7 +1853,8 @@
             </li>
             <li>
               <a class="file" href="docs/doc-preparation-poste-travail.pdf" data-viewer target="_blank" rel="noopener">
-                <span class="file-thumb"><img src="docs/apercus/doc-preparation-poste-travail.webp" alt="" width="480" height="340" loading="lazy" decoding="async"></span>
+                <span class="file-thumb"><img src="docs/apercus/doc-preparation-poste-travail.webp" alt="" width="480"
+                    height="340" loading="lazy" decoding="async"></span>
                 <span class="file-info">
                   <span class="file-type ft-pdf">PDF</span>
                   <span class="file-name">Préparation d’un poste de travail</span>
@@ -1449,8 +1864,10 @@
               </a>
             </li>
             <li>
-              <a class="file" href="docs/procedure-reconditionnement-postes.pdf" data-viewer target="_blank" rel="noopener">
-                <span class="file-thumb"><img src="docs/apercus/procedure-reconditionnement-postes.webp" alt="" width="480" height="340" loading="lazy" decoding="async"></span>
+              <a class="file" href="docs/procedure-reconditionnement-postes.pdf" data-viewer target="_blank"
+                rel="noopener">
+                <span class="file-thumb"><img src="docs/apercus/procedure-reconditionnement-postes.webp" alt=""
+                    width="480" height="340" loading="lazy" decoding="async"></span>
                 <span class="file-info">
                   <span class="file-type ft-pdf">PDF</span>
                   <span class="file-name">Reconditionnement de postes</span>
@@ -1461,7 +1878,8 @@
             </li>
             <li>
               <a class="file" href="docs/doc-droits-active-directory.pdf" data-viewer target="_blank" rel="noopener">
-                <span class="file-thumb"><img src="docs/apercus/doc-droits-active-directory.webp" alt="" width="480" height="340" loading="lazy" decoding="async"></span>
+                <span class="file-thumb"><img src="docs/apercus/doc-droits-active-directory.webp" alt="" width="480"
+                    height="340" loading="lazy" decoding="async"></span>
                 <span class="file-info">
                   <span class="file-type ft-pdf">PDF</span>
                   <span class="file-name">Comptes et droits Active Directory</span>
@@ -1472,7 +1890,8 @@
             </li>
             <li>
               <a class="file" href="docs/doc-messagerie-exchange.pdf" data-viewer target="_blank" rel="noopener">
-                <span class="file-thumb"><img src="docs/apercus/doc-messagerie-exchange.webp" alt="" width="480" height="340" loading="lazy" decoding="async"></span>
+                <span class="file-thumb"><img src="docs/apercus/doc-messagerie-exchange.webp" alt="" width="480"
+                    height="340" loading="lazy" decoding="async"></span>
                 <span class="file-info">
                   <span class="file-type ft-pdf">PDF</span>
                   <span class="file-name">Administration de la messagerie Exchange</span>
@@ -1483,7 +1902,8 @@
             </li>
             <li>
               <a class="file" href="docs/doc-migration-windows11-25h2.pdf" data-viewer target="_blank" rel="noopener">
-                <span class="file-thumb"><img src="docs/apercus/doc-migration-windows11-25h2.webp" alt="" width="480" height="340" loading="lazy" decoding="async"></span>
+                <span class="file-thumb"><img src="docs/apercus/doc-migration-windows11-25h2.webp" alt="" width="480"
+                    height="340" loading="lazy" decoding="async"></span>
                 <span class="file-info">
                   <span class="file-type ft-pdf">PDF</span>
                   <span class="file-name">Migration du parc vers Windows 11 25H2</span>
@@ -1492,10 +1912,13 @@
                 </span>
               </a>
             </li>
-            <li class="doc-group"><h3>Projets</h3></li>
+            <li class="doc-group">
+              <h3>Projets</h3>
+            </li>
             <li>
               <a class="file" href="docs/documentation-homelab-proxmox.pdf" data-viewer target="_blank" rel="noopener">
-                <span class="file-thumb"><img src="docs/apercus/documentation-homelab-proxmox.webp" alt="" width="480" height="340" loading="lazy" decoding="async"></span>
+                <span class="file-thumb"><img src="docs/apercus/documentation-homelab-proxmox.webp" alt="" width="480"
+                    height="340" loading="lazy" decoding="async"></span>
                 <span class="file-info">
                   <span class="file-type ft-pdf">PDF</span>
                   <span class="file-name">Homelab sur la baie Proxmox : documentation technique</span>
@@ -1506,7 +1929,8 @@
             </li>
             <li>
               <a class="file" href="docs/deploiement-bookaru.pdf" data-viewer target="_blank" rel="noopener">
-                <span class="file-thumb"><img src="docs/apercus/deploiement-bookaru.webp" alt="" width="480" height="340" loading="lazy" decoding="async"></span>
+                <span class="file-thumb"><img src="docs/apercus/deploiement-bookaru.webp" alt="" width="480"
+                    height="340" loading="lazy" decoding="async"></span>
                 <span class="file-info">
                   <span class="file-type ft-pdf">PDF</span>
                   <span class="file-name">Déploiement de Bookaru</span>
@@ -1517,7 +1941,8 @@
             </li>
             <li>
               <a class="file" href="docs/dossier-complet-spaa.pdf" data-viewer target="_blank" rel="noopener">
-                <span class="file-thumb"><img src="docs/apercus/dossier-complet-spaa.webp" alt="" width="480" height="340" loading="lazy" decoding="async"></span>
+                <span class="file-thumb"><img src="docs/apercus/dossier-complet-spaa.webp" alt="" width="480"
+                    height="340" loading="lazy" decoding="async"></span>
                 <span class="file-info">
                   <span class="file-type ft-pdf">PDF</span>
                   <span class="file-name">SPAA : dossier complet du projet</span>
@@ -1527,8 +1952,11 @@
               </a>
             </li>
             <li>
-              <a class="file" href="docs/SIO-OptionA-SR-Projet-Solution-Hebergement-Intranet.pdf" data-viewer target="_blank" rel="noopener">
-                <span class="file-thumb"><img src="docs/apercus/SIO-OptionA-SR-Projet-Solution-Hebergement-Intranet.webp" alt="" width="480" height="340" loading="lazy" decoding="async"></span>
+              <a class="file" href="docs/SIO-OptionA-SR-Projet-Solution-Hebergement-Intranet.pdf" data-viewer
+                target="_blank" rel="noopener">
+                <span class="file-thumb"><img
+                    src="docs/apercus/SIO-OptionA-SR-Projet-Solution-Hebergement-Intranet.webp" alt="" width="480"
+                    height="340" loading="lazy" decoding="async"></span>
                 <span class="file-info">
                   <span class="file-type ft-pdf">PDF</span>
                   <span class="file-name">Hébergement intranet : cahier des charges</span>
@@ -1539,7 +1967,8 @@
             </li>
             <li>
               <a class="file" href="docs/guide-virtualbox-tranche1.pdf" data-viewer target="_blank" rel="noopener">
-                <span class="file-thumb"><img src="docs/apercus/guide-virtualbox-tranche1.webp" alt="" width="480" height="340" loading="lazy" decoding="async"></span>
+                <span class="file-thumb"><img src="docs/apercus/guide-virtualbox-tranche1.webp" alt="" width="480"
+                    height="340" loading="lazy" decoding="async"></span>
                 <span class="file-info">
                   <span class="file-type ft-pdf">PDF</span>
                   <span class="file-name">Hébergement intranet : guide tranche 1</span>
@@ -1548,10 +1977,13 @@
                 </span>
               </a>
             </li>
-            <li class="doc-group"><h3>Épreuve et références</h3></li>
+            <li class="doc-group">
+              <h3>Épreuve et références</h3>
+            </li>
             <li>
               <a class="file" href="docs/tableau_synthese_E5_update.xlsx" download>
-                <span class="file-thumb"><img src="docs/apercus/tableau_synthese_E5_update.webp" alt="" width="480" height="340" loading="lazy" decoding="async"></span>
+                <span class="file-thumb"><img src="docs/apercus/tableau_synthese_E5_update.webp" alt="" width="480"
+                    height="340" loading="lazy" decoding="async"></span>
                 <span class="file-info">
                   <span class="file-type ft-xlsx">XLSX</span>
                   <span class="file-name">Tableau de synthèse épreuve E5</span>
@@ -1561,7 +1993,8 @@
               </a>
             </li>
             <li>
-              <a class="file" href="https://glpi-user-documentation.readthedocs.io/fr/latest/" target="_blank" rel="noopener">
+              <a class="file" href="https://glpi-user-documentation.readthedocs.io/fr/latest/" target="_blank"
+                rel="noopener">
                 <span class="file-thumb file-thumb-web" aria-hidden="true"><span>GLPI</span></span>
                 <span class="file-info">
                   <span class="file-type ft-web">WEB</span>
@@ -1583,12 +2016,14 @@
       <div class="wrap contact-grid">
         <div>
           <h2 class="section-title">Contact</h2>
-          <p class="section-intro">Ouvert aux échanges professionnels et aux projets autour des réseaux et de l’infrastructure.</p>
+          <p class="section-intro">Ouvert aux échanges professionnels et aux projets autour des réseaux et de
+            l’infrastructure.</p>
 
           <div class="contact-card">
             <span class="contact-label">Email</span>
             <a class="contact-mail" id="contactMail" href="mailto:axel.royer98@gmail.com">axel.royer98@gmail.com</a>
-            <button type="button" class="btn-copy" id="copyMail" data-copy="axel.royer98@gmail.com">Copier l’adresse</button>
+            <button type="button" class="btn-copy" id="copyMail" data-copy="axel.royer98@gmail.com">Copier
+              l’adresse</button>
           </div>
           <div class="contact-card">
             <span class="contact-label">Localisation</span>
@@ -1622,7 +2057,9 @@
   <footer class="footer">
     <!-- Bouton flottant « retour en haut » (positionné en bas à droite par le CSS) -->
     <a href="#top" class="to-top" id="toTop" aria-label="Revenir en haut de la page">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 19V5M5 12l7-7 7 7" />
+      </svg>
     </a>
     <div class="wrap footer-inner">
       <span>Axel Royer, BTS SIO SISR 2e année</span>
@@ -1644,7 +2081,9 @@
         </div>
         <button type="button" class="sheet-link" id="sheetLink">Copier le lien</button>
         <button type="button" class="sheet-close" id="sheetClose" aria-label="Fermer la fiche">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18" />
+          </svg>
         </button>
       </div>
       <div class="sheet-scroll">
@@ -1676,7 +2115,9 @@
       <a class="viewer-act" id="viewerOpen" href="#" target="_blank" rel="noopener">Ouvrir dans un onglet</a>
       <a class="viewer-act" id="viewerDl" href="#" download>Télécharger</a>
       <button type="button" class="sheet-close" id="viewerClose" aria-label="Fermer le document">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18" />
+        </svg>
       </button>
     </div>
     <iframe class="viewer-frame" id="viewerFrame" title="Aperçu du document"></iframe>
@@ -1686,14 +2127,18 @@
   <dialog class="palette" id="palette" aria-label="Recherche rapide">
     <div class="palette-inner">
       <div class="palette-field">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
-        <input type="text" id="paletteInput" placeholder="Projet, compétence, document…" autocomplete="off" spellcheck="false"
-          role="combobox" aria-expanded="true" aria-controls="paletteList" aria-autocomplete="list">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="6.5" />
+          <path d="M16 16l4.5 4.5" />
+        </svg>
+        <input type="text" id="paletteInput" placeholder="Projet, compétence, document…" autocomplete="off"
+          spellcheck="false" role="combobox" aria-expanded="true" aria-controls="paletteList" aria-autocomplete="list">
         <kbd>Échap</kbd>
       </div>
       <ul class="palette-list" id="paletteList" role="listbox"></ul>
       <p class="palette-empty" id="paletteEmpty" hidden>Aucun résultat. Essayez « DNS », « Exchange » ou « PDF ».</p>
-      <div class="palette-foot"><span><kbd>↑</kbd><kbd>↓</kbd> naviguer</span><span><kbd>Entrée</kbd> ouvrir</span></div>
+      <div class="palette-foot"><span><kbd>↑</kbd><kbd>↓</kbd> naviguer</span><span><kbd>Entrée</kbd> ouvrir</span>
+      </div>
     </div>
   </dialog>
 
